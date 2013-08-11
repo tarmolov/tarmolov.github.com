@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Alexander Tarmolov's blog
+page_type: index
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<nav class="navigation">
+    <ul class="menu">
+        {% for post in site.posts %}
+            <li class="menu__item">
+                <a class="link" href="{{ post.url }}">{{ post.title }}</a>
+                —
+                <i class="post__date">{{ post.date | date_to_string }}</i>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

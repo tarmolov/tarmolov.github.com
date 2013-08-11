@@ -1,0 +1,19 @@
+.menu
+    position: relative
+
+    margin: 0
+    padding: 0
+
+    list-style: none
+
+.menu__item:before
+    position: absolute
+    left: -1.5rem
+
+    content: '—'
+    display: inline-block
+    text-align: right
+
+@media screen and (max-width: 450px)
+    .menu__item:before
+        content: ''

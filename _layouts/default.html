@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>{{ page.title }} — tarmolov.ru</title>
+        <link rel="alternate" type="application/atom+xml" title="Atom feed" href="http://feeds.feedburner.com/tarmolov">
+        <link  rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="/index.css">
+        <!--[if lt IE 9]>
+            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <link rel="stylesheet" href="/index.ie.css">
+        <![endif]-->
     </head>
-    <body>
+    <body class="page{% if page.page_type %} page_type_{{ page.page_type }}{% endif %}">
+        <header class="header page__header">
+            <h1 class="header__title">
+                {% if page.page_type != "index" %}<a class="link header__link" href="/">{% endif %}
+                    {{ site.name }}
+                {% if page.page_type != "index" %}</a>{% endif %}
+                <a class="link icon icon_type_rss header__rss" href="http://feeds.feedburner.com/tarmolov" title="Subscribe to the RSS feed">RSS</a>
+            </h1>
+            {% if site.description %}
+                <h2 class="header__description">{{ site.description }}</h2>
+            {% endif %}
+        </header>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
+        <section class="main page__main">
+            <div class="content">
                 {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
             </div>
-          </div>
-        </div> <!-- /container -->
+        </section>
 
+        <footer class="footer page__footer">
+            <p class="footer__inner">&copy; 2013 <a class="link" href="http://about.me/tarmolov">Alexander Tarmolov</a></p>
+        </footer>
     </body>
 </html>

@@ -1,9 +1,11 @@
 ---
 layout: default
+page_type: post
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
+<section class="post">
+    <h2 class="post__title">{{ page.title }}</h2>
+    {{ content }}
+</section>
+<section class="contribute">
+    If you found a mistake please feel free to <a href="https://github.com/tarmolov/tarmolov.github.com/edit/master/{{ page.path }}">contribute</a> or <a href="https://github.com/tarmolov/tarmolov.github.com/issues/new?title={{ page.title }}&labels[]=bug&labels[]=content">report it as a task</a>.
+</section>

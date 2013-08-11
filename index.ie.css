@@ -1,0 +1,4 @@
+article,aside,details,figure,footer,header,menu,nav,section{display:block}
+.page__main{padding:1.5em 0}
+.menu{list-style:disk}
+.menu__item:before{content:''}

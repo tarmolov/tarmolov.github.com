@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Alexander Tarmolov</title>
+    <link>tarmolov.ru</link>
+    <description>yet another blog about web development</description>
+    <pubDate>Thu, 15 Aug 2013 03:27:07 +0400</pubDate>
+    <item>
+      <title>Initial commit</title>
+      <link>tarmolov.ru/blog/initial-commit</link>
+      <description>At long last I have started my blog. I am going to describe here my thoughts and ideas which relate with a web development. I will also plan to share my experience (successful and failed), my projects, and experiments.
+
+</description>
+      <pubDate>Thu, 15 Aug 2013 03:27:07 +0400</pubDate>
+      <dc:date>2013-08-15T03:27:07+04:00</dc:date>
+    </item>
+    <dc:date>2013-08-15T03:27:07+04:00</dc:date>
+  </channel>
+</rss>
