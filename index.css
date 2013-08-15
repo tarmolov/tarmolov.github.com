@@ -63,7 +63,8 @@ pre{padding:0 .4em;border:1px solid #ddd}
 .page__header,.page__main,.page__footer{width:auto;max-width:700px;margin:0 auto}
 .page__main{padding:2.5rem 0}
 @media screen and (max-width: 450px){.page__main{padding:1.5rem 0}
-}.header__title{font-size:3rem;position:relative;padding-right:43px;display:inline-block;white-space:nowrap}
+}.header{text-align:center;padding-bottom:.5rem;border-bottom:2px solid}
+.header__title{font-size:3rem;position:relative;padding-right:43px;display:inline-block;white-space:nowrap}
 .header__description{font-size:1.5rem}
 .header__title,.header__description{font-weight:normal;margin:0}
 .header__link{color:#767568}
@@ -72,8 +73,7 @@ pre{padding:0 .4em;border:1px solid #ddd}
 .header__description{font-size:.98rem}
 .header__rss{top:-9999rem}
 }.content{line-height:1.7rem}
-.footer{font-size:1rem;color:#767568}
-.footer__inner{margin:0}
+.footer{font-size:1rem;padding-top:.5rem;text-align:center;border-top:2px solid}
 .post__title{font-weight:normal;margin:0}
 .post__date{font-family:'Cent-Italic21',Georgia,serif;font-size:1rem}
 .icon_type_rss{position:relative;width:27px;height:27px;display:block;overflow:hidden;text-indent:-186px}

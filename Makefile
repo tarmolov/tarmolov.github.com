@@ -2,9 +2,11 @@ all:
 	@jekyll server --watch
 
 deploy:
-	@cp _site/{index.css,index.ie.css,rss.xml} .
-	@git add index.css index.ie.css rss.xml
+	@git stash
+	@cp _site/{index.css,rss.xml} .
+	@git add .
 	@git commit --amend -C HEAD
+	@git stash apply
 	@git push -f origin master
 
 clean:
