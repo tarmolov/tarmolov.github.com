@@ -1,4 +1,6 @@
 pre{padding:0 .4em;border:1px solid #ddd}
+a{text-decoration:none;color:#0985ce}
+a:hover{text-decoration:underline}
 .highlight{background:#fff}
 .highlight .c{color:#998;font-style:italic}
 .highlight .err{color:#a61717;background-color:#e3d2d2}
