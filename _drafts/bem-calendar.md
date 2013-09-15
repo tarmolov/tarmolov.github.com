@@ -1,8 +1,10 @@
 ---
+
 layout: post
 title:  "How to use bem-core"
 date:   2013-09-15 20:31:12
 categories: blog
+
 ---
 
 ###Continuous integration (CI)
