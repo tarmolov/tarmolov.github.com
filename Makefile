@@ -9,6 +9,10 @@ deploy:
 	@git stash apply
 	@git push -f origin master
 
+dev:
+	@jekyll server --watch --drafts
+
+
 clean:
 	@rm -rf _site
 
