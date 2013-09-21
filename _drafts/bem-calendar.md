@@ -166,7 +166,7 @@ Possible drawback is conflict styles of nested block and mixin. But I can stand 
 
 In javascript i-bem provides methods like findBlockInside/findBlockOn for finding nested blocks. It also provides method findBlockOutside but this method breaks the idea of independent blocks. Do not use this method at all!
 
-All javascript modules were wrapped busing YMS. For example,
+All javascript modules were wrapped using YMS. For example,
 ```
 modules.define('i-bem__dom', function (provide, DOM) {
 
@@ -200,7 +200,30 @@ modules.define('search', [/** deps **/], function () {
 
 Please pay attention to module name. In the first case it is ```i-bem__dom``` but actually it is declared ```label```. In the second case I declared the modules with "right" name. Why did I declare modules with two different ways?
 
+Definition depends on how you use the module in your application.
+
+Search module has been created manually in component search; so, the code would be executed during application initilization. Label on the other hand is used latently in form_type_event when I created bemjson for showing form. This block should be inited by execting ```DOM.init``` and ```i-bem``` inits only blocks declared in special way, i.e. as ```i-bem__dom``` module.
+
 ### Testing
+When you work in a big company such as Yandex your application is accurately checked by testing team. I am proud to say that we have a unbelievable testing team! They are really incredible. They can bugs which reproduced very-very tricky way (and sometimes I event litle bit hate them). Anyway after such careful check you can calmly publish an application in production.
+
+However, bem-calendar is not a part of my job and I have not great testers to verify my application. Therefore I undertook three steps to create a stable application.
+
+First step is a linting code with jshint and jscs. I have already told you about them in Tools part. After this step I have consistent code. Good begining.
+
+Unit testing is a next step. In my opinion tests is an important part of your code, i.e. code is not only code but tests, too. Using phantomjs to run tests in console or automatically after each commit speed up development and refactoring.
+
+Honestly, I usually write tests only after I have completed structure (backbone) of an application. Anyway without unit tests I cannot guarantee that my application works properly :)
+
+I think it does not matter what kind of framework you choose for unit testing. For instance, I used [mocha](http://visionmedia.github.io/mocha/) + [chai](http://chaijs.com/) + [sinon](http://sinonjs.org/) for bem-calendar. Unit testing cannot completely save the day, though. They do not test the application in different browsers.
+
+I have a mac and can test my calendar only in couple browsers and in one operation system. First idea was to download virtual machines from [modern.ie](http://www.modern.ie/). But I have not much time to test the calendar in all virtual machines.
+
+So my choice is [BrowserStack](http://www.browserstack.com/) with a wide range of browser and platforms. Firstly, this service runs your site in a lot browsers (25 in free version) and [creates screnshot for each of them](http://www.browserstack.com/screenshots/18d918bb9bb188f9df08b436be34835ad01735f7). If you notice an error in a screenshot you can run virtual machine in browser and explore in detail.
+
+I am very lazy and I do not want to do extra actions for testing. So I created a special page [calendar-test](http://tarmolov.github.io/bem-calendar/pages/calendar-test/calendar-test.html) where script adds event and opens popups. Now I can [quickly verify work of my application](http://www.browserstack.com/screenshots/0742d8374fe1836f15e8774719e465a2adade766).
+
+Linting code, unit testing, and browserStack help you to make an application very stable.
 
 ### Continuous integration (CI)
 
