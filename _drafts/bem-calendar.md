@@ -26,7 +26,7 @@ Let us start with Design part.
 ### Design part
 [BEM methodology](http://bem.info/) teachs you that a first step of building web site is to mark out page blocks. In my case it is a easy peasy issue because of a simple page.
 
-![Calendar blocks](http://note.io/15DHkKr)
+[![Calendar blocks](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_all.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_all.png)
 
 But the most major blocks are only four:
 
@@ -37,7 +37,7 @@ But the most major blocks are only four:
 
 I marked blocks at a screenshot bellow:
 
-![Calendar blocks](http://note.io/16agsV1)
+[![Calendar blocks](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_main.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_main.png)
 
 Next step is more interesting. How to connect these blocks and to make application work?
 
@@ -45,7 +45,7 @@ It seems that I need a small but a good architecture for the calendar.
 
 I like an approach presented by Nicholas C. Zakas and called Scalable JavaScript Application Architecture. If you are not familiar with this approach you can [watch video](http://bem.github.io/bem-bl/sets/common-desktop/i-bem/i-bem.en.html) or [read slides](http://bem.github.io/bem-bl/sets/common-desktop/i-bem/i-bem.en.html). The major idea is to divide responsibility and business logic among several layers of an application. Each layer has knowledge only about adjacent layers.
 
-![Level of abstractions](http://note.io/18DheJU)
+[![Level of abstractions](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_zakas.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_zakas.png)
 
 In my case this paradigm does not work completely because of bem-core.
 
@@ -59,7 +59,7 @@ Also bem-core provides a lot of useful modules (and the module system itself) bu
 So why cannot I implement this paradigm completely? Because bem-core uses jQuery which penetrated into all parts of i-bem. As a result you have to use jQuery in your BEM blocks and blocks know about base library.
 
 My architecture overview is presented in diagramm bellow:
-![Architecture overview](http://note.io/1btZpya)
+[![Architecture overview](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)
 
 You can see that BEM is not displayed at the diagramm. My architecture should not depend on BEM or another methadology.
 
@@ -73,7 +73,7 @@ For storing application data I use a simple active model which could be accessib
 
 Components work as controllers in my application.More details you can see in class diagram:
 
-![Class diagram](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/ClassDiagram.png)
+[![Class diagram](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_class/uml_class_main.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_class/uml_class_main.png)
 
 I have only four visual components:
 
@@ -86,7 +86,7 @@ An each component represents itself using BEM block with the same name. When a c
 
 And how application start would look like:
 
-![Application start](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/ApplicationStart.png)
+[![Application start](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_sequence/uml_sequence_application-start.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_sequence/uml_sequence_application-start.png)
 
 It looks very simple and it works very simple ;)
 
