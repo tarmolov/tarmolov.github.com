@@ -11,9 +11,9 @@ First of all, a little preface. A couple of weeks ago I have got to know about F
 
 In this article you will see several parts:
 
-  * **Design part** tells you how I designed my mini application.
+  * **Design** part tells you how I designed my mini application.
   * **Tools** teach you which kind of tools makes development handy and cozy.
-  * **Development**.
+  * In **Development** part I tell you about my solutions and approaches.
   * **Testing** shows you how I tested my project and made it stable.
   * **Continuous intergration** is last one and it tells you something about automatization.
 
@@ -23,7 +23,8 @@ In this article you will see several parts:
 
 Let us start with Design part.
 
-### Design part
+### Design
+
 [BEM methodology](http://bem.info/) teachs you that a first step of building web site is to mark out page blocks. In my case it is a easy peasy issue because of a simple page.
 
 [![Calendar blocks](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_all.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_all.png)
@@ -268,3 +269,16 @@ after_success: ./update-gh-pages.sh
 ```
 
 Push and it works like a magic.
+
+### Conclusion
+
+BEM calendar is a very simple appliction but this article is not about creating calendars. My goal is to show you principles of good development:
+
+  * Develope desing of an application carefully and lay the groundwork for future possible features.
+  * Use tools which help to write more accurate and stable code.
+  * Test your code not only with unit tests but add crossbrowser tests, too.
+  * Automate everythin you can do.
+
+I hope this article teachs you something interesting.
+
+And of course thank you to read to the end ;)
