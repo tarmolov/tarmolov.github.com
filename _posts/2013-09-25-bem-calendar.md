@@ -117,7 +117,7 @@ Also ```enb``` has a perfect documentation (at this moment only Russian version 
 
 Moreover, ```enb``` makes it possible to get rid of dependencies for javascript modules because it can read them from ```YMS``` declarations. As a result I have added only 7 files with dependencies!
 
-```bem-core``` recommends you to use [BEMHTML](http://bem.info/articles/bemhtml-intro/) template engine by default. However, I recommend to use [bh](github.com/enb-make/bh) template engine. It is much faster than ```BEMHTML``` and works without compilation. Also it is small and easy to use. You just write CommonJS modules:
+```bem-core``` recommends you to use [BEMHTML](http://bem.info/articles/bemhtml-intro/) template engine by default. However, I recommend to use [bh](github.com/enb-make/bh) template engine. It is small, easy to use, and much faster than ```BEMHTML```. You just write CommonJS modules:
 
 ```
 module.exports = function (bh) {
