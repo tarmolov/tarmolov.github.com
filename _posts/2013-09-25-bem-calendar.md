@@ -310,4 +310,4 @@ BEM calendar is a very simple appliction but this article is not about creating 
 
 I hope this article provide will be useful for you further projects.
 
-And thanks to all these corageous who read this article up to the end :)
+And thanks to all those corageous who read this article up to the end :)
