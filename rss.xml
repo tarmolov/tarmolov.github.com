@@ -8,7 +8,7 @@
     <title>Alexander Tarmolov</title>
     <link>tarmolov.ru</link>
     <description>yet another blog about web development</description>
-    <pubDate>Thu, 15 Aug 2013 03:27:07 +0400</pubDate>
+    <pubDate>Sun, 22 Sep 2013 23:31:12 +0400</pubDate>
     <item>
       <title>Initial commit</title>
       <link>tarmolov.ru/blog/initial-commit</link>
@@ -18,6 +18,15 @@
       <pubDate>Thu, 15 Aug 2013 03:27:07 +0400</pubDate>
       <dc:date>2013-08-15T03:27:07+04:00</dc:date>
     </item>
-    <dc:date>2013-08-15T03:27:07+04:00</dc:date>
+    <item>
+      <title>Simple BEM calendar</title>
+      <link>tarmolov.ru/blog/bem-calendar</link>
+      <description>First of all, a little preface. A couple of weeks ago I got to know about Frontend Developer School run by [HeadHunter](http://hh.ru/locale.do?language=EN). The entering assigment was to make a simple calendar. This issue seemed to be quite interesting for me and I decided to solve it using new [bem-core](https://github.com/bem/bem-core/) library.
+
+</description>
+      <pubDate>Sun, 22 Sep 2013 23:31:12 +0400</pubDate>
+      <dc:date>2013-09-22T23:31:12+04:00</dc:date>
+    </item>
+    <dc:date>2013-09-22T23:31:12+04:00</dc:date>
   </channel>
 </rss>
