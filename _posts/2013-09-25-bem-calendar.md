@@ -7,7 +7,7 @@ categories: blog
 
 ---
 
-First of all, a little preface. A couple of weeks ago I got to know about Frontend Developer School run by [HeadHunter](http://hh.ru/locale.do?language=EN). The entering assigment was to make a simple calendar. This issue seemed to be quite interesting for me and I decided to solve it using new [bem-core](https://github.com/bem/bem-core/) library.
+First of all, a little preface. A couple of weeks ago I got to know about Frontend Developer School run by [HeadHunter](http://hh.ru/locale.do?language=EN). The entering assignment was to make a simple calendar. This issue seemed to be quite interesting for me and I decided to solve it using new [bem-core](https://github.com/bem/bem-core/) library.
 
 This article is divided into several parts:
 
@@ -15,7 +15,7 @@ This article is divided into several parts:
   * **Tools** teach you which kind of tools makes development handy and cozy.
   * **Development** is dedicated to established solutions and problems.
   * **Testing** shows you how I tested my project and made it stable.
-  * **Continuous intergration** is the last one and it tells you about automatization.
+  * **Continuous integration** is the last one and it tells you about automatization.
 
 **Note.** It is a long article. If you do not want to read the whole post please go to project page on [github](https://github.com/tarmolov/bem-calendar#bem-calendar-) for short version :)
 
@@ -59,10 +59,10 @@ In [the official page](https://github.com/bem/bem-core/) we can read the followi
 
 So why cannot I implement this paradigm completely? The case is bem-core uses jQuery which penetrated into all parts of ```i-bem```. As a result you have to use jQuery in your BEM blocks because blocks know about base library.
 
-My architecture overview is presented in a diagramm bellow:
+My architecture overview is presented in a diagram bellow:
 [![Architecture overview](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)
 
-As you can see that BEM is not displayed on the diagramm. In my opinion base architecture should not depend on BEM or other methodology.
+As you can see that BEM is not displayed on the diagram. In my opinion base architecture should not depend on BEM or other methodology.
 
 There are a few differences from Zakas approach:
 
@@ -89,7 +89,7 @@ More details you can see on the class diagram:
 
 [![Class diagram](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_class/uml_class_main.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_class/uml_class_main.png)
 
-Application start is obvious and straitghforward:
+Application start is obvious and straightforward:
 
 [![Application start](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_sequence/uml_sequence_application-start.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_sequence/uml_sequence_application-start.png)
 
@@ -129,7 +129,7 @@ module.exports = function (bh) {
 
 Next two tools are about validation javascript code: [jshint-groups](https://github.com/ikokostya/jshint-groups) and [jscs](https://github.com/mdevils/node-jscs).
 
-First of them is a [jshint](http://jshint.com/) wrapper. It provides possibility to add different rules for cheking files with ```jshint```. There are tests, templates, client, and server javascript in your project. Now you can write separate and suitable ```jshint``` rules for all of them. It is a flexible way to lint your code.
+First of them is a [jshint](http://jshint.com/) wrapper. It provides possibility to add different rules for checking files with ```jshint```. There are tests, templates, client, and server javascript in your project. Now you can write separate and suitable ```jshint``` rules for all of them. It is a flexible way to lint your code.
 
 ```jscs``` is a javascript codestyle checker. Make sure that your code is written in one codestyle! It provides a lots of predefined rules. If you do not find suitable rules you  [can add new ones](https://github.com/mdevils/node-jscs/blob/master/CONTRIBUTION.md).
 
@@ -139,7 +139,7 @@ So what we have: ```enb```, ```jshint-groups```, ```jscs```, and ```csscomb```. 
 
 ### Development
 
-BEM claims that you should create absolutly independent blocks. In CSS blocks should be aware only about their elements and they do not have any knowledge about possible nested blocks. In order to change the style of nested blocks use mixins.
+BEM claims that you should create absolutely independent blocks. In CSS blocks should be aware only about their elements and they do not have any knowledge about possible nested blocks. In order to change the style of nested blocks use mixins.
 
 For example, see bemjson for search block
 
@@ -185,7 +185,7 @@ I mixed the elements of search blocks with nested icons and input blocks. For in
 
 If I decide to change icon block to megaicon block, I will not need to change styles in search block. Cool, hah?
 
-The possible drawback is conflict styles of nested block and mixin. But I accept this shorcoming. It is kind of fee for such magic as mixins.
+The possible drawback is conflict styles of nested block and mixin. But I accept this shortcoming. It is kind of fee for such magic as mixins.
 
 In javascript ```i-bem``` provides methods like findBlockInside/findBlockOn for finding nested blocks. It also provides method findBlockOutside which conflicts with the idea of independent blocks. Do not recommend to use this method in your project.
 
@@ -211,7 +211,7 @@ modules.define('i-bem__dom', function (provide, DOM) {
 });
 ```
 
-However, declartion for navigation looks in a different way
+However, declaration for navigation looks in a different way
 
 ```
 modules.define('search', [/** deps **/], function () {
@@ -257,7 +257,7 @@ Linting code, unit testing, and browserStack help you to make an application ver
 
 ### Continuous integration (CI)
 
-[CI](http://en.wikipedia.org/wiki/Continuous_integration) is a good way to be calm about your project. At work I usually use [TeamCity](http://www.jetbrains.com/teamcity/) by JetBrains which is perfectly suitable for our work issues. Teamcity helps to automate everything in our development process and does it well. Unfortunatelly our teamcity server is not opened for everyone. Moreover Teamcity is not free and you should own a server for setting it up.
+[CI](http://en.wikipedia.org/wiki/Continuous_integration) is a good way to be calm about your project. At work I usually use [TeamCity](http://www.jetbrains.com/teamcity/) by JetBrains which is perfectly suitable for our work issues. Teamcity helps to automate everything in our development process and does it well. Unfortunately our teamcity server is not opened for everyone. Moreover Teamcity is not free and you should own a server for setting it up.
 
 To be honest I did not want to buy server for this project; so, I chose [Travis](http://travis-ci.org/) which is perfectly suitable for projects hosted on github.
 
@@ -297,17 +297,17 @@ After that action travis can not only clone your project repository but also pus
 after_success: ./update-gh-pages.sh
 ```
 
-Now travis regenerates my demo for eash push. It works like a magic.
+Now travis regenerates my demo for each push. It works like a magic.
 
 ### Conclusion
 
-BEM calendar is a very simple appliction but this article is not about creating calendars. My goal is to show you principles of good development:
+BEM calendar is a very simple application but this article is not about creating calendars. My goal is to show you principles of good development:
 
-  * Develope design of an application carefully and lay the groundwork for future possible features.
+  * Develop design of an application carefully and lay the groundwork for future possible features.
   * Use tools which help to write more accurate and stable code.
   * Test your code not only with unit tests but add crossbrowser tests, too.
   * Automate everything you can do.
 
 I hope this article provide will be useful for you further projects.
 
-And thanks to all those corageous who read this article up to the end :)
+And thanks to all those courageous who read this article up to the end :)
