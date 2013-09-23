@@ -62,7 +62,7 @@ So why cannot I implement this paradigm completely? The case is bem-core uses jQ
 My architecture overview is presented in a diagramm bellow:
 [![Architecture overview](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)
 
-As you can see that BEM is not displayed on the diagramm. In my opinion base architecture should not depend on BEM or other methadology.
+As you can see that BEM is not displayed on the diagramm. In my opinion base architecture should not depend on BEM or other methodology.
 
 There are a few differences from Zakas approach:
 
@@ -227,7 +227,7 @@ Please pay attention to module naming. In the first case it is ```i-bem__dom``` 
 
 Definition depends on how you use the module in your application.
 
-Search module has been created manually in the search component; so, the code would be executed during the application initilization. On the other hand label is used latently in ```form_type_event```. This block should be initialized by executing ```DOM.init```. After that ```i-bem``` inits only blocks declared in special way, i.e. as ```i-bem__dom``` module.
+Search module has been created manually in the search component; so, the code would be executed during the application initialization. On the other hand label is used latently in ```form_type_event```. This block should be initialized by executing ```DOM.init```. After that ```i-bem``` inits only blocks declared in special way, i.e. as ```i-bem__dom``` module.
 
 Be careful declaring your modules.
 
@@ -303,7 +303,7 @@ Now travis regenerates my demo for eash push. It works like a magic.
 
 BEM calendar is a very simple appliction but this article is not about creating calendars. My goal is to show you principles of good development:
 
-  * Develope desing of an application carefully and lay the groundwork for future possible features.
+  * Develope design of an application carefully and lay the groundwork for future possible features.
   * Use tools which help to write more accurate and stable code.
   * Test your code not only with unit tests but add crossbrowser tests, too.
   * Automate everything you can do.
