@@ -36,7 +36,7 @@ I have only four major blocks:
   * Calendar navigation.
   * And calendar itself.
 
-I marked blocks on the screenshot bellow:
+I marked blocks on the screenshot below:
 
 [![Calendar blocks](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_main.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_main.png)
 
@@ -59,7 +59,7 @@ In [the official page](https://github.com/bem/bem-core/) we can read the followi
 
 So why cannot I implement this paradigm completely? The case is bem-core uses jQuery which penetrated into all parts of ```i-bem```. As a result you have to use jQuery in your BEM blocks because blocks know about base library.
 
-My architecture overview is presented in a diagram bellow:
+My architecture overview is presented in a diagram below:
 [![Architecture overview](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)
 
 As you can see that BEM is not displayed on the diagram. In my opinion base architecture should not depend on BEM or other methodology.
@@ -109,7 +109,7 @@ Using interfaces is always increasing stability of your application.
 
 When you use BEM your code is divided into great number of blocks. Then files will be concatenated and minified. Of course we can do it manually but usually we use special tools for this issue.
 
-At first, it was a make-platform. Then [bem-tools](https://github.com/bem/bem-tools) was created. And then ```enb``` came.
+At first, it was a make-platform. Then [bem-tools](https://github.com/bem/bem-tools) were created. And then ```enb``` came.
 
 [enb](http://enb-make.info/) is a powerful and fast builder. In development mode you even do not notice that your files have been built. It works just amazingly!
 
@@ -235,7 +235,7 @@ Be careful declaring your modules.
 
 When you work in a big company like [Yandex](http://yandex.com/) your application is always intently checked by testing team.
 
-I am proud to say that we have an unbelievable testing team! Guys  are really incredible! They can find bugs which can be reproduced in a very tricky way (sometimes I really hate them, lol). After the careful check your application can be published in production without any doubts.
+I am proud to say that we have an unbelievable testing team! Guys are really incredible! They can find bugs which can be reproduced in a very tricky way (sometimes I really hate them, lol). After careful check your application can be published in production without any doubts.
 
 However, this project is not a part of my job and I do not have great testers to verify my application. Therefore I undertook three steps to create a stable application.
 
@@ -279,7 +279,7 @@ node_js:
 
 This configuration is sufficient for linting your code and running unit tests! Do not forget to add ```scripts``` section in your package.json.
 
-But I wanted more. My goal was to regenerate my demo after each successful build when all tests have been passed. I  googled a [blog post](http://sleepycoders.blogspot.ru/2013/03/sharing-travis-ci-generated-files.html) with solution.
+But I wanted more. My goal was to regenerate my demo after each successful build when all tests have been passed. I  googled a [blog post](http://sleepycoders.blogspot.ru/2013/03/sharing-travis-ci-generated-files.html) with a solution.
 
 In a nutshell, you should teach Travis to authenticate to your repository with push permission.
 
