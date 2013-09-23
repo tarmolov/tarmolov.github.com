@@ -9,10 +9,10 @@ categories: blog
 
 First of all, a little preface. A couple of weeks ago I got to know about Frontend Developer School run by [HeadHunter](http://hh.ru/locale.do?language=EN). The entering assignment was to make a simple calendar. This issue seemed to be quite interesting for me and I decided to solve it using new [bem-core](https://github.com/bem/bem-core/) library.
 
-This article is divided into several parts:
+This article is divided into five parts:
 
   * **Design** tells you how I designed my mini application.
-  * **Tools** teach you which kind of tools makes development handy and cozy.
+  * **Tools** teaches you which tools make are handy and make your development cozy.
   * **Development** is dedicated to established solutions and problems.
   * **Testing** shows you how I tested my project and made it stable.
   * **Continuous integration** is the last one and it tells you about automatization.
@@ -40,7 +40,7 @@ I marked blocks on the screenshot below:
 
 [![Calendar blocks](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_main.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_main.png)
 
-Next step is much more interesting. How to connect these blocks and to make application work?
+The next step is much more interesting. How to connect these blocks and make the application work?
 
 It seems that I need a small but robust architecture for the calendar.
 
@@ -68,9 +68,9 @@ There are a few differences from Zakas approach:
 
   * Every layer is aware of the base library: everything needs jQuery :)
   * Component manager is responsible for starting and stopping components.
-  * Modules are named the components because I already have modules from ```YMS``` (conflict names).
+  * Modules are named components because I already have modules from ```YMS``` (conflict names).
 
-For storing an application data I use a simple active model which can be accessible through the sandbox, too. However, components do not know where the model comes from. That is important.
+For storing an application data I use a simple active model which can be accessed through the sandbox, too. However, components do not know where the model comes from. That is important.
 
 I have only four visual components:
 
@@ -81,7 +81,7 @@ I have only four visual components:
 
 And one (```Sync```) is non-visual for synching my application with localStorage.
 
-Each component represents itself using BEM block with the same name (not necessary requirement). Once a component has been started, it creates BEM block as a View-Controller and puts it into DOM node taken from Sandbox.
+Each component represents itself using BEM block with the same name (not necessary requirement). Once a component has been started, it creates BEM block as a View-Controller and puts it into DOM node taken from the Sandbox.
 
 In the calendar the components work as controllers an communicate only through the model i.e. indirectly. Also I want to emphasize that the components are very simple [mediators](http://en.wikipedia.org/wiki/Mediator_pattern). The majority of code is concentrated in BEM blocks.
 
@@ -89,13 +89,13 @@ More details you can see on the class diagram:
 
 [![Class diagram](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_class/uml_class_main.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_class/uml_class_main.png)
 
-Application start is obvious and straightforward:
+Application start sequence is obvious and straightforward:
 
 [![Application start](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_sequence/uml_sequence_application-start.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_sequence/uml_sequence_application-start.png)
 
-It looks quite simple and it works in the same way ;)
+It looks quite simple and works the same way ;)
 
-I wanted to achieve the stable core of my application; therefore, I had defined interfaces for major classes:
+I wanted to achieve a stable core of my application; therefore, I had defined interfaces for major classes:
 
   * [ISandbox](https://github.com/tarmolov/bem-calendar/blob/master/blocks/interface/i-sandbox.js)
   * [IComponent](https://github.com/tarmolov/bem-calendar/blob/master/blocks/interface/i-component.js)
@@ -129,13 +129,13 @@ module.exports = function (bh) {
 
 Next two tools are about validation javascript code: [jshint-groups](https://github.com/ikokostya/jshint-groups) and [jscs](https://github.com/mdevils/node-jscs).
 
-First of them is a [jshint](http://jshint.com/) wrapper. It provides possibility to add different rules for checking files with ```jshint```. There are tests, templates, client, and server javascript in your project. Now you can write separate and suitable ```jshint``` rules for all of them. It is a flexible way to lint your code.
+The first of them is a [jshint](http://jshint.com/) wrapper. It provides possibility to add different rules for checking files with ```jshint```. There are tests, templates, client, and server javascript in your project. Now you can write separate and suitable ```jshint``` rules for all of them. It is a flexible way to lint your code.
 
-```jscs``` is a javascript codestyle checker. Make sure that your code is written in one codestyle! It provides a lots of predefined rules. If you do not find suitable rules you  [can add new ones](https://github.com/mdevils/node-jscs/blob/master/CONTRIBUTION.md).
+```jscs``` is a javascript codestyle checker. It will make sure that your code is written in one consistent codestyle! It provides a lots of predefined rules. If you do not find suitable rules you  [can add new ones](https://github.com/mdevils/node-jscs/blob/master/CONTRIBUTION.md).
 
 The last one is [csscomb](https://github.com/csscomb/csscomb.js). This tool formats your CSS code. I love when CSS rules are formatted in the same order and are divided into groups. In my opinion such nice-looking code is easy to read and maintain.
 
-So what we have: ```enb```, ```jshint-groups```, ```jscs```, and ```csscomb```. This is a bunch of great tools and I advise you to use them in everyday development.
+So what we have: ```enb```, ```jshint-groups```, ```jscs```, and ```csscomb```. This is a bunch of great tools and I advise you to use them in your everyday development.
 
 ### Development
 
@@ -183,11 +183,11 @@ I mixed the elements of search blocks with nested icons and input blocks. For in
 }
 ```
 
-If I decide to change icon block to megaicon block, I will not need to change styles in search block. Cool, hah?
+If I decide to change icon block to megaicon block, I will not need to change styles in the search block. Cool, hah?
 
 The possible drawback is conflict styles of nested block and mixin. But I accept this shortcoming. It is kind of fee for such magic as mixins.
 
-In javascript ```i-bem``` provides methods like findBlockInside/findBlockOn for finding nested blocks. It also provides method findBlockOutside which conflicts with the idea of independent blocks. Do not recommend to use this method in your project.
+In javascript ```i-bem``` provides methods like findBlockInside/findBlockOn for finding nested blocks. It also provides method findBlockOutside which conflicts with the idea of independent blocks. I do not recommend to using this method in your project.
 
 All javascript modules are wrapped using ```YMS```. For example,
 
@@ -303,11 +303,11 @@ Now travis regenerates my demo for each push. It works like a magic.
 
 BEM calendar is a very simple application but this article is not about creating calendars. My goal is to show you principles of good development:
 
-  * Develop design of an application carefully and lay the groundwork for future possible features.
-  * Use tools which help to write more accurate and stable code.
-  * Test your code not only with unit tests but add crossbrowser tests, too.
-  * Automate everything you can do.
+  * Develop the design of your application carefully and lay the groundwork for future possible features.
+  * Use tools which help you write more accurate and stable code.
+  * Test your code not only with unit tests but use crossbrowser tests, too.
+  * Automate everything you can.
 
 I hope this article provide will be useful for you further projects.
 
-And thanks to all those courageous who read this article up to the end :)
+And thanks to all those courageous who read this article down to the end :)
