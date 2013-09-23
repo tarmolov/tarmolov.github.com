@@ -55,7 +55,7 @@ In [the official page](https://github.com/bem/bem-core/) we can read the followi
 
 ```bem-core``` uses [special module system](https://github.com/ymaps/modules) that is not officially named yet; so I call it just YMaps Module System (YMS). It solves problems such as asynchronous ```require``` and ```provide``` which are absent in AMD and CommonJS. It is a compact and robust module system; therefore, I strongly recommend you to try it in your new project.
 
-```bem-core``` provides a lot of useful modules (and the module system itself) but I has included this library in the project because of [i-bem](http://bem.info/articles/bem-js-main-terms/). It is a helper for creating BEM blocks in declarative way.
+```bem-core``` provides a lot of useful modules (and the module system itself) but I have included this library in the project because of [i-bem](http://bem.info/articles/bem-js-main-terms/). It is a helper for creating BEM blocks in declarative way.
 
 So why cannot I implement this paradigm completely? The case is bem-core uses jQuery which penetrated into all parts of ```i-bem```. As a result you have to use jQuery in your BEM blocks because blocks know about base library.
 
