@@ -1,6 +1,6 @@
 name: Alexander Tarmolov
 description: yet another blog about web development
-url: tarmolov.ru
+url: http://tarmolov.ru/
 author: Alexander Tarmolov
 markdown: redcarpet
 pygments: true
