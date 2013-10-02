@@ -311,3 +311,8 @@ BEM calendar is a very simple application but this article is not about creating
 I hope this article provide will be useful for you further projects.
 
 And thanks to all those courageous who read this article down to the end :)
+
+### Thanks
+I want to say a special thank to my girlfriend for invaluable support and making this post much better.
+
+Also I thank everyone who helped me to improve the post. Special thanks to [ignovak](https://github.com/ignovak), [dfilatov](https://github.com/dfilatov), and [dodev](https://github.com/dodev).
