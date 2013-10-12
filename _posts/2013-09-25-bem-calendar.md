@@ -187,7 +187,7 @@ If I decide to change icon block to megaicon block, I will not need to change st
 
 The possible drawback is conflict styles of nested block and mixin. But I accept this shortcoming. It is kind of fee for such magic as mixins.
 
-In javascript ```i-bem``` provides methods like findBlockInside/findBlockOn for finding nested blocks. It also provides method findBlockOutside which conflicts with the idea of independent blocks. I do not recommend to use this method in your project.
+In javascript ```i-bem``` provides methods like ```findBlockInside```/```findBlockOn``` for finding nested blocks. It also provides methods ```findBlockOutside```/```findBlocksOutside``` which conflicts with the idea of independent blocks. I do not recommend to use this method in your project. Just [disable them](https://github.com/tarmolov/bem-aib).
 
 All javascript modules are wrapped using ```YMS```. For example,
 
