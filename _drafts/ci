@@ -1,0 +1,2 @@
+ * why?
+ * possible workflow: teamcity - tests + lings -> build packege -> build next packge -> deployment -> func tests + secure tests + screnshots test
