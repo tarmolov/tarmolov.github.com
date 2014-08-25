@@ -12,3 +12,8 @@ Then open the link in your [favorite browser](http://browser.yandex.com/):
 ```
 http://localhost:4000/
 ```
+
+## Run server with the drafts
+```
+make dev
+```
