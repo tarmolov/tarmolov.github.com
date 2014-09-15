@@ -3,7 +3,7 @@ all:
 
 deploy:
 	@git stash
-	@cp _site/{index.css} .
+	@cp _site/index.css .
 	@git add .
 	@git commit --amend -C HEAD
 	@git stash apply
