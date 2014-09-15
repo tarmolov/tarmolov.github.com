@@ -3,11 +3,8 @@ p > code{padding:0 5px;margin:0 2px;white-space:nowrap;border:1px solid #ddd;bor
 a{text-decoration:none;color:#0985ce}
 a:hover{text-decoration:underline}
 h3{font-size:1.5rem}
-img{max-width:800px}
-@media screen and (max-width: 800px){img{max-width:600px}
-}@media screen and (max-width: 600px){img{max-width:400px}
-h3{font-size:1.3rem}
-}@media screen and (max-width: 400px){img{max-width:300px}
+img{display:block;max-width:100%;height:auto}
+@media screen and (max-width: 600px){h3{font-size:1.3rem}
 }blockquote{margin:15px 0;padding:0 15px;border-left:4px solid #ddd;color:#777}
 .highlight{background:#fff}
 .highlight .c{color:#998;font-style:italic}

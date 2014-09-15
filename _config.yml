@@ -3,7 +3,7 @@ description: yet another blog about web development
 url: http://tarmolov.ru/
 author: Alexander Tarmolov
 markdown: redcarpet
-pygments: true
+highlighter: true
 permalink: /:categories/:title
 exclude: [blocks, Makefile, README.md]
 stylus:
