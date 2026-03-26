@@ -1,10 +1,9 @@
 ---
-
-layout: post
-title:  "Simple BEM calendar"
-date:   2013-09-22 19:31:12
-categories: blog
-
+title: "Simple BEM calendar"
+date: 2013-09-22T19:31:12+00:00
+slug: bem-calendar
+categories:
+  - blog
 ---
 
 First of all, a little preface. A couple of weeks ago I got to know about Frontend Developer School run by [HeadHunter](http://hh.ru/locale.do?language=EN). The entering assignment was to make a simple calendar. This issue seemed to be quite interesting for me and I decided to solve it using new [bem-core](https://github.com/bem/bem-core/) library.

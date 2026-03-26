@@ -1,19 +1,15 @@
-# tarmolov's blog
-Based on [Jekyll](http://jekyllrb.com/).
+# tarmolov.ru
 
-## Installation
-```
-gem install jekyll stylus
-git clone git@github.com:tarmolov/tarmolov.github.com.git
-cd tarmolov.github.com
-make
-```
-Then open the link in your [favorite browser](http://browser.yandex.com/):
-```
-http://localhost:4000/
+Personal blog of Alexander Tarmolov. Built with [Hugo](https://gohugo.io/) and [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+
+## Local development
+
+```bash
+hugo server -D
 ```
 
-## Run server with the drafts
-```
-make dev
+## Build
+
+```bash
+hugo --minify
 ```
