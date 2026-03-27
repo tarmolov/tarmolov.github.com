@@ -19,7 +19,7 @@ tracker: "BLOG-232"
 
 Однако на определенном этапе важно не только уверенно владеть своим делом, но и уметь убеждать других. Нужно научиться "продавать" свои идеи и видение — будь то коллеги, клиенты или инвесторы.
 
-[Сэм Олтмен](https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D1%82%D0%BC%D0%B5%D0%BD,_%D0%A1%D1%8D%D0%BC), CEO OpenAI и бывший президент Y Combinator, в своем [посте](%5B%D0%BF%D0%BE%D1%81%D1%82%D0%B5%5D(https://blog.samaltman.com/how-to-be-successful)) поделился мудрым советом:
+[Сэм Олтмен](https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D1%82%D0%BC%D0%B5%D0%BD,_%D0%A1%D1%8D%D0%BC), CEO OpenAI и бывший президент Y Combinator, в своем [посте](https://blog.samaltman.com/how-to-be-successful) поделился мудрым советом:
 
 “All great careers, to some degree, become sales jobs. You have to evangelize your plans to customers, prospective employees, the press, investors, etc. This requires an inspiring vision, strong communication skills, some degree of charisma, and evidence of execution ability.”
 
