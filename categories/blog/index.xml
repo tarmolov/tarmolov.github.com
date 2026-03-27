@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on</title><link>https://tarmolov.ru/categories/blog/</link><description>Recent content in Blog on</description><generator>Hugo -- gohugo.io</generator><language>ru</language><copyright>© 2026 Тармолов про работу</copyright><lastBuildDate>Wed, 26 Feb 2014 16:03:35 +0000</lastBuildDate><atom:link href="https://tarmolov.ru/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>How I use Evernote</title><link>https://tarmolov.ru/posts/how-i-use-evernote/</link><pubDate>Wed, 26 Feb 2014 16:03:35 +0000</pubDate><guid>https://tarmolov.ru/posts/how-i-use-evernote/</guid><description>&lt;p>
+
+ 
+
+&lt;img loading="lazy" src="https://tarmolov.ru/i/evernote_my.png" alt="My Evernote configuration" />
+&lt;/p>
+&lt;p>This topic is about planning and collecting information. In my opinion, these processes are inevitable part of development.&lt;/p>
+&lt;p>Obviously developers have to plan their activity and it doesn’t matter what kind of tools you use. It could be special applications, stickers, todo-lists or keeping all your plans in the head. To become more effective and professional developer we should study to plan and clear up what is important and what is not.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tarmolov.ru/posts/how-i-use-evernote/thumbnail.png"/></item><item><title>Simple BEM calendar</title><link>https://tarmolov.ru/posts/bem-calendar/</link><pubDate>Sun, 22 Sep 2013 19:31:12 +0000</pubDate><guid>https://tarmolov.ru/posts/bem-calendar/</guid><description>&lt;p>First of all, a little preface. A couple of weeks ago I got to know about Frontend Developer School run by &lt;a href="http://hh.ru/locale.do?language=EN" target="_blank" rel="noreferrer">HeadHunter&lt;/a>. The entering assignment was to make a simple calendar. This issue seemed to be quite interesting for me and I decided to solve it using new &lt;a href="https://github.com/bem/bem-core/" target="_blank" rel="noreferrer">bem-core&lt;/a> library.&lt;/p>
+&lt;p>This article is divided into five parts:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Design&lt;/strong> tells you how I designed my mini application.&lt;/li>
+&lt;li>&lt;strong>Tools&lt;/strong> teaches you which tools make are handy and make your development cozy.&lt;/li>
+&lt;li>&lt;strong>Development&lt;/strong> is dedicated to established solutions and problems.&lt;/li>
+&lt;li>&lt;strong>Testing&lt;/strong> shows you how I tested my project and made it stable.&lt;/li>
+&lt;li>&lt;strong>Continuous integration&lt;/strong> is the last one and it tells you about automatization.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Note.&lt;/strong> It is a long article. If you do not want to read the whole post please go to project page on &lt;a href="https://github.com/tarmolov/bem-calendar#bem-calendar-" target="_blank" rel="noreferrer">github&lt;/a> for short version :)&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tarmolov.ru/posts/bem-calendar/thumbnail.png"/></item><item><title>Initial commit</title><link>https://tarmolov.ru/posts/initial-commit/</link><pubDate>Wed, 14 Aug 2013 23:27:07 +0000</pubDate><guid>https://tarmolov.ru/posts/initial-commit/</guid><description>&lt;p>At long last I have started my blog. I am going to describe here my thoughts and ideas which relate with a web development. I will also plan to share my experience (successful and failed), my projects, and experiments.&lt;/p>
+&lt;p>I chose &lt;a href="http://jekyllrb.com/" target="_blank" rel="noreferrer">Jekyll&lt;/a> as my blog engine because:&lt;/p>
+&lt;ul>
+&lt;li>simple design;&lt;/li>
+&lt;li>flexibility;&lt;/li>
+&lt;li>local server for debugging and preview;&lt;/li>
+&lt;li>markdown;&lt;/li>
+&lt;/ul>
+&lt;p>I will miss Jekyll a bit but the time has come to move on to &lt;a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo&lt;/a>. Much faster and no Ruby dependencies.&lt;/p></description></item></channel></rss>
