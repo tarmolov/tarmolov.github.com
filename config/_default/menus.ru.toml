@@ -1,4 +1,9 @@
 [[main]]
+  name = "Главная"
+  pageRef = ""
+  weight = 0
+
+[[main]]
   name = "Посты"
   pageRef = "posts"
   weight = 1
