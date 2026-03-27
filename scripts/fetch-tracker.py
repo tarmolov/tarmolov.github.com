@@ -295,14 +295,11 @@ def main():
         md = issue_to_markdown(issue, site_url_map, post_dir)
         (post_dir / "index.md").write_text(md, encoding="utf-8")
 
-        # Write siteUrl back to Tracker
-        url = issue_site_url(issue)
-        if issue.get(FIELD_SITE_URL) != url:
-            try:
-                api_patch(f"/issues/{key}", {FIELD_SITE_URL: url})
-                print(f"  ✓ siteUrl → {url}")
-            except Exception as e:
-                print(f"  WARN: could not update siteUrl: {e}")
+        # TODO: write siteUrl back to Tracker (disabled during debugging)
+        # url = issue_site_url(issue)
+        # if issue.get(FIELD_SITE_URL) != url:
+        #     api_patch(f"/issues/{key}", {FIELD_SITE_URL: url})
+        #     print(f"  ✓ siteUrl → {url}")
 
         time.sleep(0.1)
 
