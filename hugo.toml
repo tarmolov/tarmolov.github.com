@@ -1,7 +1,8 @@
-baseURL = "https://tarmolov.ru/"
+baseURL = "https://cogery-agent.github.io/tarmolov.github.com/"
 languageCode = "en-us"
 title = "Alexander Tarmolov"
 theme = "PaperMod"
+
 [pagination]
   pagerSize = 10
 
