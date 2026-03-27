@@ -1,5 +1,7 @@
-{{ if .IsHome }}
+{{ if and (reflect.IsMap .) (isset . "IsHome") }}
+  {{ if .IsHome }}
 <style>
   header a[href="{{ "/" | relURL }}"] { display: none; }
 </style>
+  {{ end }}
 {{ end }}
