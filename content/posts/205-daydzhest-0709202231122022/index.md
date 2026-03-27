@@ -22,95 +22,95 @@ tracker: "BLOG-205"
 
 **Аналитика**
 
-* [Что такое a/b эксперименты?](https://t.me/c/1697479693/72)
-* [Технические детали a/b экспериментов](https://t.me/c/1697479693/73)
+* [Что такое a/b эксперименты?](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/2)
+* [Технические детали a/b экспериментов](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/3)
 
 **Байки**
 
-* [Сложности коммуникации](https://t.me/c/1697479693/7)
-* [О рубрике #байки](https://t.me/c/1697479693/9)
-* [Гибкий график работы](https://t.me/c/1697479693/13)
-* [Неправильный ключ](https://t.me/c/1697479693/19)
-* [Найдется все, и даже ботинки](https://t.me/c/1697479693/25)
-* [Cassandra](https://t.me/c/1697479693/31)
-* [Искусство споров](https://t.me/c/1697479693/35)
-* [Глючный стул](https://t.me/c/1697479693/40)
-* [Двойник](https://t.me/c/1697479693/44)
-* [Золотой костыль](https://t.me/c/1697479693/50)
-* [LSR из-за "минорного бекенда"](https://t.me/c/1697479693/60)
-* [Про тупик](https://t.me/c/1697479693/66)
-* [Кто сломал панорамы?](https://t.me/c/1697479693/63)
-* [Случай в столовой](https://t.me/c/1697479693/58)
-* [Случай с заглохшим авто](https://t.me/tarmolov_work/56)
-* [Обновление питерской столовой](https://t.me/c/1697479693/71)
+* [Сложности коммуникации](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/)
+* [О рубрике #байки](https://tarmolov.ru/posts/7-o-rubrike-bayki/)
+* [Гибкий график работы](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/)
+* [Неправильный ключ](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/)
+* [Найдется все, и даже ботинки](https://tarmolov.ru/posts/23-naydetsya-vse-i-dazhe-botinki/)
+* [Cassandra](https://tarmolov.ru/posts/1-znakomstvo/1)
+* [Искусство споров](https://tarmolov.ru/posts/1-znakomstvo/5)
+* [Глючный стул](https://tarmolov.ru/posts/2-zapusk-eksperimenta-s-blogom/0)
+* [Двойник](https://tarmolov.ru/posts/2-zapusk-eksperimenta-s-blogom/4)
+* [Золотой костыль](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/0)
+* [LSR из-за "минорного бекенда"](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/0)
+* [Про тупик](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/6)
+* [Кто сломал панорамы?](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/3)
+* [Случай в столовой](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/8)
+* [Случай с заглохшим авто](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/6)
+* [Обновление питерской столовой](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/1)
 
 **Безопасность**
 
-* [Отношение к утечке данных](https://t.me/c/1697479693/61)
+* [Отношение к утечке данных](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/1)
 
 **Гео**
 
-* [Геополис: день рождения геосервисов](https://t.me/c/1697479693/5)
-* [Первая версия Яндекс Карт](https://t.me/c/1697479693/6)
-* [Доступный тортик](https://t.me/c/1697479693/67)
+* [Геополис: день рождения геосервисов](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/)
+* [Первая версия Яндекс Карт](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/)
+* [Доступный тортик](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/7)
 
 **Инфраструктура**
 
-* [Про инфраструктуру](https://t.me/c/1697479693/32)
-* [Экономия ментальной энергии через автоматизацию](https://t.me/c/1697479693/34)
+* [Про инфраструктуру](https://tarmolov.ru/posts/1-znakomstvo/2)
+* [Экономия ментальной энергии через автоматизацию](https://tarmolov.ru/posts/1-znakomstvo/4)
 
 **Инциденты**
 
-* [Что такое инциденты/факапы](https://t.me/c/1697479693/18)
-* [Неправильный ключ](https://t.me/c/1697479693/19)
-* [Cassandra](https://t.me/c/1697479693/31)
-* [LSR из-за "минорного бекенда"](https://t.me/c/1697479693/60)
-* [Что такое LSR](https://t.me/c/1697479693/59)
-* [Отношение к инцидентам](https://t.me/c/1697479693/57)
+* [Что такое инциденты/факапы](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/)
+* [Неправильный ключ](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/)
+* [Cassandra](https://tarmolov.ru/posts/1-znakomstvo/1)
+* [LSR из-за "минорного бекенда"](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/0)
+* [Что такое LSR](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/9)
+* [Отношение к инцидентам](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/7)
 
 **Карты**
 
-* [Blue marbel в спутниковом режиме](https://t.me/c/1697479693/65)
+* [Blue marbel в спутниковом режиме](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/5)
 
 **Команда**
 
-* [Состав моей команды](https://t.me/c/1697479693/12)
-* [Мой путь: до Яндекса](https://t.me/c/1697479693/41)
-* [Мой путь: в Яндексе](https://t.me/c/1697479693/42)
+* [Состав моей команды](https://tarmolov.ru/posts/10-sostav-moey-komandy/)
+* [Мой путь: до Яндекса](https://tarmolov.ru/posts/2-zapusk-eksperimenta-s-blogom/1)
+* [Мой путь: в Яндексе](https://tarmolov.ru/posts/2-zapusk-eksperimenta-s-blogom/2)
 
 **Новости**
 
-* [API 3.0](https://t.me/c/1697479693/62)
-* [Планиметр](https://t.me/c/1697479693/64)
-* [Карта дня и ночи](https://t.me/tarmolov_work/74)
+* [API 3.0](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/2)
+* [Планиметр](https://tarmolov.ru/posts/4-pervaya-versiya-yandeks-kart/4)
+* [Карта дня и ночи](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/4)
 
 **Разработка**
 
-* [Разработка — это садоводство](https://t.me/c/1697479693/26)
-* [Схема релизной трубы](https://t.me/c/1697479693/27)
-* ["Вечные" TODO в коде](https://t.me/tarmolov_work/55)
-* [Автоматизация ведения блога](https://t.me/c/1697479693/70)
+* [Разработка — это садоводство](https://tarmolov.ru/posts/24-razrabotka-eto-sadovodstvo/)
+* [Схема релизной трубы](https://tarmolov.ru/posts/25-skhema-reliznoy-truby/)
+* ["Вечные" TODO в коде](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/5)
+* [Автоматизация ведения блога](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/0)
 
 **Ревью**
 
-* [Вступление про ревью](https://t.me/c/1697479693/14)
-* [Что такое ревью](https://t.me/c/1697479693/15)
-* [Ревьюшное колесо](https://t.me/c/1697479693/16)
-* [Доклады Яндекса про ревью](https://t.me/c/1697479693/17)
-* [Тяжелые периоды и ревью](https://t.me/c/1697479693/20)
-* [1. Подведение итогов](https://t.me/c/1697479693/21)
-* [Схема про самоотзыв](https://t.me/c/1697479693/22)
-* [2. Сбор обратной связи](https://t.me/c/1697479693/23)
-* [Схема про сбор обратной связи](https://t.me/c/1697479693/24)
-* [Грейды сотрудников](https://t.me/c/1697479693/29)
-* [Линейка грейдов](https://t.me/c/1697479693/30)
-* [3. Выставление оценки](https://t.me/c/1697479693/33)
-* [4. Калибровки](https://t.me/c/1697479693/36)
-* [Схема калибровок](https://t.me/c/1697479693/37)
-* [Гистограмма распределения оценок на ревью](https://t.me/c/1697479693/38)
-* [5. Озвучивание результатов](https://t.me/c/1697479693/39)
+* [Вступление про ревью](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/)
+* [Что такое ревью](https://tarmolov.ru/posts/13-chto-takoe-revyu/)
+* [Ревьюшное колесо](https://tarmolov.ru/posts/14-revyushnoe-kolesa/)
+* [Доклады Яндекса про ревью](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/)
+* [Тяжелые периоды и ревью](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/)
+* [1. Подведение итогов](https://tarmolov.ru/posts/19-1-podvedenie-itogov/)
+* [Схема про самоотзыв](https://tarmolov.ru/posts/20-skhema-pro-samootzyv/)
+* [2. Сбор обратной связи](https://tarmolov.ru/posts/21-2-sbor-obratnoy-svyazi/)
+* [Схема про сбор обратной связи](https://tarmolov.ru/posts/22-skhema-pro-sbor-obratnoy-svyazi/)
+* [Грейды сотрудников](https://tarmolov.ru/posts/27-greydy-sotrudnikov/)
+* [Линейка грейдов](https://tarmolov.ru/posts/1-znakomstvo/0)
+* [3. Выставление оценки](https://tarmolov.ru/posts/1-znakomstvo/3)
+* [4. Калибровки](https://tarmolov.ru/posts/1-znakomstvo/6)
+* [Схема калибровок](https://tarmolov.ru/posts/1-znakomstvo/7)
+* [Гистограмма распределения оценок на ревью](https://tarmolov.ru/posts/1-znakomstvo/8)
+* [5. Озвучивание результатов](https://tarmolov.ru/posts/1-znakomstvo/9)
 
 **Яндекс**
 
-* [Логин в Яндексе](https://t.me/c/1697479693/28)
-* [Случай в столовой](https://t.me/c/1697479693/58)
+* [Логин в Яндексе](https://tarmolov.ru/posts/26-login-v-yandekse/)
+* [Случай в столовой](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/8)

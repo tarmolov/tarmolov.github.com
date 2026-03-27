@@ -15,4 +15,4 @@ tracker: "BLOG-42"
 
 Вот вам еще фото из архивов. Вторая версия мобильного стенда.
 
-Лучше же [первой](https://t.me/c/1697479693/10)? :)
+Лучше же [первой](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/)? :)

@@ -19,50 +19,50 @@ tracker: "BLOG-233"
 Для удобства посты разбиты по категориям и отсортированы по алфавиту.
 
 **Байки**
-* [Письмо от мэрии нашему менеджеру](https://t.me/c/1697479693/123)
-* [Админ перезагрузил кластер вместо одного сервера](https://t.me/c/1697479693/118)
-* [Разработчик 1 и разработчик 2](https://t.me/c/1697479693/134)
-* [Как я искал удобный способ оплаты](https://t.me/c/1697479693/130)
+* [Письмо от мэрии нашему менеджеру](https://tarmolov.ru/posts/10-sostav-moey-komandy/3)
+* [Админ перезагрузил кластер вместо одного сервера](https://tarmolov.ru/posts/9-foto-giperkuba/8)
+* [Разработчик 1 и разработчик 2](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/4)
+* [Как я искал удобный способ оплаты](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/0)
 
 **Безопасность**
-* [Письмо от мэрии нашему менеджеру](https://t.me/c/1697479693/123)
-* [Взлом паролей роботом Marcus Brutus](https://t.me/c/1697479693/120)
-* [Фишинговые письма для сотрудников](https://t.me/c/1697479693/122)
-* [О службе безопасности](https://t.me/c/1697479693/119)
+* [Письмо от мэрии нашему менеджеру](https://tarmolov.ru/posts/10-sostav-moey-komandy/3)
+* [Взлом паролей роботом Marcus Brutus](https://tarmolov.ru/posts/10-sostav-moey-komandy/0)
+* [Фишинговые письма для сотрудников](https://tarmolov.ru/posts/10-sostav-moey-komandy/2)
+* [О службе безопасности](https://tarmolov.ru/posts/9-foto-giperkuba/9)
 
 **Гео**
-* [История светофора](https://t.me/c/1697479693/135)
+* [История светофора](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/5)
 
 **Инфраструктура**
-* [Окружения сервиса: testing, prestable, production](https://t.me/c/1697479693/128)
-* [Debian-пакеты для деплоя сервисов](https://t.me/c/1697479693/133)
+* [Окружения сервиса: testing, prestable, production](https://tarmolov.ru/posts/10-sostav-moey-komandy/8)
+* [Debian-пакеты для деплоя сервисов](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/3)
 
 **Инциденты**
-* [Админ перезагрузил кластер вместо одного сервера](https://t.me/c/1697479693/118)
+* [Админ перезагрузил кластер вместо одного сервера](https://tarmolov.ru/posts/9-foto-giperkuba/8)
 
 **Карьера**
-* [Про честность](https://t.me/c/1697479693/126)
-* [Про шильдик "руководитель отдела"](https://t.me/c/1697479693/121)
+* [Про честность](https://tarmolov.ru/posts/10-sostav-moey-komandy/6)
+* [Про шильдик "руководитель отдела"](https://tarmolov.ru/posts/10-sostav-moey-komandy/1)
 
 **Книги**
-* [Дэвид Аллен: Как привести дела в порядок](https://t.me/c/1697479693/116)
+* [Дэвид Аллен: Как привести дела в порядок](https://tarmolov.ru/posts/9-foto-giperkuba/6)
 
 **Менеджмент**
-* [Про GTD](https://t.me/c/1697479693/114)
-* [Про Things](https://t.me/c/1697479693/125)
-* [Про календари](https://t.me/c/1697479693/131)
+* [Про GTD](https://tarmolov.ru/posts/9-foto-giperkuba/4)
+* [Про Things](https://tarmolov.ru/posts/10-sostav-moey-komandy/5)
+* [Про календари](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/1)
 
 **Менторство**
-* [Ресурсное и нересурсное состояние](https://t.me/c/1697479693/111)
+* [Ресурсное и нересурсное состояние](https://tarmolov.ru/posts/9-foto-giperkuba/1)
 
 **Разработка**
-* [Технологическое болото](https://t.me/c/1697479693/117)
+* [Технологическое болото](https://tarmolov.ru/posts/9-foto-giperkuba/7)
 
 **Цитатник**
-* [Имбирь с несахарным характером](https://t.me/c/1697479693/127)
+* [Имбирь с несахарным характером](https://tarmolov.ru/posts/10-sostav-moey-komandy/7)
 
 **Яндекс**
-* [Гуси на хурале](https://t.me/c/1697479693/132)
-* [Что было до секций при найме](https://t.me/c/1697479693/136)
-* [Про найм в Яндексе](https://t.me/c/1697479693/129)
-* [Ну где же ваши "ручки"?](https://t.me/c/1697479693/124)
+* [Гуси на хурале](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/2)
+* [Что было до секций при найме](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/6)
+* [Про найм в Яндексе](https://tarmolov.ru/posts/10-sostav-moey-komandy/9)
+* [Ну где же ваши "ручки"?](https://tarmolov.ru/posts/10-sostav-moey-komandy/4)

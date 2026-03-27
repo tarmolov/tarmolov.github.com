@@ -19,35 +19,35 @@ tracker: "BLOG-276"
 Для удобства посты разбиты по категориям и отсортированы по алфавиту.
 
 **Аналитика**
-* [Yandex Query Language](https://t.me/c/1697479693/196)
+* [Yandex Query Language](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/6)
 
 **Байки**
-* [Жалоба пользователя на прыгающую панель](https://t.me/c/1697479693/201)
-* [Как инженеры сваи забивали](https://t.me/c/1697479693/199)
-* [Про настойчивость и терпение](https://t.me/c/1697479693/204)
+* [Жалоба пользователя на прыгающую панель](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/1)
+* [Как инженеры сваи забивали](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/9)
+* [Про настойчивость и терпение](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/4)
 
 **Инфраструктура**
-* [YT — яндексовый MapReduce](https://t.me/c/1697479693/195)
+* [YT — яндексовый MapReduce](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/5)
 
 **Карьера**
-* [Эмоциональный банковский счет](https://t.me/c/1697479693/191)
-* [Диверсификация счастья](https://t.me/c/1697479693/194)
-* [Почему карьерный рост такой непонятный](https://t.me/c/1697479693/192)
-* [Как подводить итоги года и ставить достижимые цели?](https://t.me/c/1697479693/193)
-* [Карты навыков ML-разработчиков и фронтендеров](https://t.me/c/1697479693/200)
-* [Принцип Парето, Мерфи, Паркинсона и Питера](https://t.me/c/1697479693/202)
+* [Эмоциональный банковский счет](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/1)
+* [Диверсификация счастья](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/4)
+* [Почему карьерный рост такой непонятный](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/2)
+* [Как подводить итоги года и ставить достижимые цели?](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/3)
+* [Карты навыков ML-разработчиков и фронтендеров](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/0)
+* [Принцип Парето, Мерфи, Паркинсона и Питера](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/2)
 
 **Книги**
-* [Рей Далио. Принципы](https://t.me/c/1697479693/203)
+* [Рей Далио. Принципы](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/3)
 
 **Новости**
-* [Выставка роверов в Яндекс Музее](https://t.me/c/1697479693/197)
+* [Выставка роверов в Яндекс Музее](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/7)
 
 **Руководство**
-* [Тимлид — операционная система по Таненбауму](https://t.me/c/1697479693/198)
+* [Тимлид — операционная система по Таненбауму](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/8)
 
 **Цитатник**
-* [Hairy Back Syndrome](https://t.me/c/1697479693/190)
+* [Hairy Back Syndrome](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/0)
 
 **Яндекс**
-* [Выставка роверов в Яндекс Музее](https://t.me/c/1697479693/197)
+* [Выставка роверов в Яндекс Музее](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/7)

@@ -412,9 +412,55 @@ def patch_urls():
         time.sleep(0.1)
     print("Done.")
 
+def replace_tg_links():
+    """Build telegram→siteUrl map from Tracker and replace links in all posts."""
+    print("Fetching all issues from Tracker...")
+    issues = search_issues()
+    tg_map = {}
+    for issue in issues:
+        tg = issue.get(FIELD_PROD, "")
+        site = issue.get(FIELD_SITE_URL, "")
+        if tg and site:
+            tg_map[tg.rstrip("/")] = site.rstrip("/") + "/"
+    print(f"Built map: {len(tg_map)} telegram → siteUrl pairs")
+
+    alert_re = re.compile(r'{{< alert[^>]*>}}.*?{{< /alert >}}', re.DOTALL)
+
+    index_files = sorted(CONTENT_DIR.glob("*/index.md"))
+    changed = 0
+    for idx in index_files:
+        text = idx.read_text(encoding="utf-8")
+
+        # Mask frontmatter and alert blocks so we don't touch them
+        fm_re = re.compile(r'\A---\n.*?\n---\n', re.DOTALL)
+        fm_match = fm_re.match(text)
+        frontmatter = fm_match.group(0) if fm_match else ""
+        body = text[len(frontmatter):]
+
+        alerts = alert_re.findall(body)
+        placeholder = "\x00ALERT{}\x00"
+        masked = alert_re.sub(lambda m, i=iter(range(len(alerts))): placeholder.format(next(i)), body)
+
+        new_masked = masked
+        for tg_url, site_url in tg_map.items():
+            new_masked = new_masked.replace(tg_url, site_url)
+
+        # Restore alert blocks and prepend frontmatter
+        for i, block in enumerate(alerts):
+            new_masked = new_masked.replace(placeholder.format(i), block)
+        new_text = frontmatter + new_masked
+
+        if new_text != text:
+            idx.write_text(new_text, encoding="utf-8")
+            print(f"  ✓ {idx.parent.name}")
+            changed += 1
+    print(f"Done. Updated {changed} files.")
+
 if __name__ == "__main__":
     import sys
     if "--patch-urls" in sys.argv:
         patch_urls()
+    elif "--replace-tg-links" in sys.argv:
+        replace_tg_links()
     else:
         main()
