@@ -13,7 +13,7 @@ tracker: "BLOG-137"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/93)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 [Наши хозяюшки](https://tarmolov.ru/posts/131-khozyayushki-i-ab-eksperimenty/) создают уют в наших офисах. Также хозяюшки — мастера по созданию условных рефлексов у сотрудников.
 

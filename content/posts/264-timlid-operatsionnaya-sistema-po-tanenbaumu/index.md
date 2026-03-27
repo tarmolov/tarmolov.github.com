@@ -14,7 +14,7 @@ tracker: "BLOG-264"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/198)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 В [докладе](https://yatalks.yandex.ru/ru/program/ty-govorish-chto-im-delat-a-oni-delayut-chto-khotyat) Алексея Штоколова на YaTalks наткнулся на интересную метафору: "Тимлид — это операционная система по Таненбауму".
 
 Книга [Операционные системы](https://www.ozon.ru/product/sovremennye-operatsionnye-sistemy-4-e-izd-bos-herbert-tanenbaum-endryu-211432884/)  Эндрю Таненбаума — фундаментальный труд про принципы работы операционных систем (ОС).

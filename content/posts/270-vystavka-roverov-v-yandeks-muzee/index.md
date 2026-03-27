@@ -14,7 +14,7 @@ tracker: "BLOG-270"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/197)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 В Москве и Санкт-Петербурге расположены [музеи Яндекса](https://t.me/yandexmuseum) со старой вычислительной техникой и игровыми автоматами. Например, там можно попробовать умножить числа с помощью [арифмометра Феликса](https://yandex.ru/museum/spb#feliks) или поиграть в [Sony Playstation 1](https://yandex.ru/museum/spb#sony-playstation-ps-ps1). 
 
 В Яндекс Музеях также [проводят](https://yandex.ru/museum/events) экскурсии, мастер-классы и выставки.

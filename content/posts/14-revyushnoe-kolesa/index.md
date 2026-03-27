@@ -13,6 +13,6 @@ tracker: "BLOG-14"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/16)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5282964187200471506-y.jpg](images/telegram-cloud-photo-size-2-5282964187200471506-y.webp) 
+ ![telegram-cloud-photo-size-2-5282964187200471506-y.jpg](images/feature.webp) 
 
 Во! Нарисовал картинку для демонстрации цикличности #ревью и получилось ревьюшное колесо 😁

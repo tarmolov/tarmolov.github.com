@@ -11,7 +11,7 @@ tracker: "BLOG-215"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/115)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 [Неожиданно](https://t.me/yandex/1239) о моем канале узнало много новых людей.
 

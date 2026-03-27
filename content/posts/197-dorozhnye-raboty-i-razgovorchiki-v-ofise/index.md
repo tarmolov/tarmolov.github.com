@@ -13,7 +13,7 @@ tracker: "BLOG-197"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/87)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 Отдали часть офисной вывески в ремонт. 
 
 Как полагается, поставили знак дорожных работ. И тут же образовались местные "разговорчики" :)

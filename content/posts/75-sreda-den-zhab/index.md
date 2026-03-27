@@ -13,7 +13,7 @@ tracker: "BLOG-75"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/98)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 В нашей команде есть свои традиции. Некоторые из них пришли снаружи.
 

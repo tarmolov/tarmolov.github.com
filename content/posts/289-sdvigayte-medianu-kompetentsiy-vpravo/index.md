@@ -13,7 +13,7 @@ tracker: "BLOG-289"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/221)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 Разговор на одной из [калибровок](https://tarmolov.ru/posts/34-4-kalibrovki/):
 — У тебя младший специалист на своем грейде уже 2 года. Нет заметного роста.
 — Мне норм. У меня есть задачи для его грейда.

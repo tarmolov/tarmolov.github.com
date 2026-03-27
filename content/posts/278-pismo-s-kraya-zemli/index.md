@@ -13,7 +13,7 @@ tracker: "BLOG-278"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/207)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 Не каждый день получаешь письмо с ~~[края света](https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D0%B9_%D0%A1%D0%B2%D0%B5%D1%82%D0%B0)~~ края Земли. Это письмо, на минуточку, преодолело тысячи километров до канцелярии Яндекса и в конечном итоге до меня.
 
 Воистину маленькое чудо :)

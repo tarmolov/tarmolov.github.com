@@ -13,7 +13,7 @@ tracker: "BLOG-304"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/239)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 Нашел свой пост в этушке от 2012 года про измерение своей эффективности с помощью отчета "Created vs. Resolved" в Jira. 
 
 Нужно было делать так, чтобы зеленого (решенного) было больше, чем созданного (красного).

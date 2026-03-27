@@ -14,7 +14,7 @@ tracker: "BLOG-203"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/104)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 Иногда в [трекере](https://cloud.yandex.ru/services/tracker) необходимо скрыть задачу от лишних глаз.
 

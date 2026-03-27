@@ -13,7 +13,7 @@ tracker: "BLOG-28"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/30)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5330025153180057538-y.jpg](images/telegram-cloud-photo-size-2-5330025153180057538-y.webp) 
+ ![telegram-cloud-photo-size-2-5330025153180057538-y.jpg](images/feature.webp) 
 
 Визуально линейку грейдов можно представить в виде обычной линейки, на которой находятся все специалисты, включая топ-менеджеров.
 

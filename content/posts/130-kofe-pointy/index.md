@@ -13,7 +13,7 @@ tracker: "BLOG-130"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/90)
 {{< /alert >}}
 
- ![image.png](images/image.webp) 
+ ![image.png](images/feature.webp) 
 
 Каждый этаж офиса Яндекса снабжен кофе-поинтами. Это такие точки притяжения коллег, где можно перекусить или выпить кофе.
 

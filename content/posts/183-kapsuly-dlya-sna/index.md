@@ -13,7 +13,7 @@ tracker: "BLOG-183"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/146)
 {{< /alert >}}
 
-![telegram-cloud-photo-size-2-5335076129209438051-y.jpg](images/telegram-cloud-photo-size-2-5335076129209438051-y.webp)
+![telegram-cloud-photo-size-2-5335076129209438051-y.jpg](images/feature.webp)
 
 Я ~~поступил~~ устроился в Яндекс во время учебы в университете. В то время я жил в студенческом режиме: утром учился, днем работал, ночью делал лабы и домашние задания.
 

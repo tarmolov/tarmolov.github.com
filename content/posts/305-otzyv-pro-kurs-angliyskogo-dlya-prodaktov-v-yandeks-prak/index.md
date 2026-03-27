@@ -11,7 +11,7 @@ tracker: "BLOG-305"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/240)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 Я недавно завершил [курс английского для менеджеров продукта](https://practicum.yandex.ru/english/english_for_products/), чтобы и английский подтянуть, и немного про менеджмент узнать.
 
 > Hit two birds with one stone ;)

@@ -11,7 +11,7 @@ tracker: "BLOG-42"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/45)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5379632343276437289-y.jpg](images/telegram-cloud-photo-size-2-5379632343276437289-y.webp) 
+ ![telegram-cloud-photo-size-2-5379632343276437289-y.jpg](images/feature.webp) 
 
 Вот вам еще фото из архивов. Вторая версия мобильного стенда.
 

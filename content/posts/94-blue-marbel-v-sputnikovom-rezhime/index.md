@@ -13,7 +13,7 @@ tracker: "BLOG-94"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/65)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 [Откройте режим спутника](https://yandex.ru/maps/?l=sat&ll=31.349154%2C38.356723&z=2) в Яндекс Картах на масштабе, когда видны все континенты. На этом масштабе океаны имеют насыщенный синий цвет.
 

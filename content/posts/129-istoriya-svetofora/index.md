@@ -13,7 +13,7 @@ tracker: "BLOG-129"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/135)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 На одной из конференций Аркадию Воложу подарили самый настоящий светофор, который он передал Геосервисам.
 

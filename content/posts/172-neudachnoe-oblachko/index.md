@@ -13,7 +13,7 @@ tracker: "BLOG-172"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/97)
 {{< /alert >}}
 
-![telegram-cloud-photo-size-2-5203932768864682598-y.jpg](images/telegram-cloud-photo-size-2-5203932768864682598-y.webp)
+![telegram-cloud-photo-size-2-5203932768864682598-y.jpg](images/feature.webp)
 
 Яндекс использует [спутниковые снимки](https://yandex.ru/company/technologies/satellite/) для создания цифровых карт местности. Спутник во время своего полета "фоткает" поверхность Земли. В этих снимках допускается до 10% облачности.
 

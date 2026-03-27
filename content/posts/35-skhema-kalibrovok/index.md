@@ -12,4 +12,4 @@ tracker: "BLOG-35"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/37)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5368774571462868536-y.jpg](images/telegram-cloud-photo-size-2-5368774571462868536-y.webp) 
+ ![telegram-cloud-photo-size-2-5368774571462868536-y.jpg](images/feature.webp) 

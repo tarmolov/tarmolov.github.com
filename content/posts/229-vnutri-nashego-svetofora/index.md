@@ -13,7 +13,7 @@ tracker: "BLOG-229"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/156)
 {{< /alert >}}
 
-![image.png](images/image.webp) 
+![image.png](images/feature.webp) 
 Сегодня предлагаю вам заглянуть внутрь [нашего светофора](https://tarmolov.ru/posts/129-istoriya-svetofora/).
 
 Все просто, как 3 копейки:

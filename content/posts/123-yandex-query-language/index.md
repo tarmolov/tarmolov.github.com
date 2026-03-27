@@ -13,7 +13,7 @@ tracker: "BLOG-123"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/196)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 В [прошлом посте](https://tarmolov.ru/posts/122-yt-yandeksovyy-mapreduce/) я упустил важную особенность, которая сделала YT настоящим хитом в Яндексе. Это Yandex Query Language (YQL) — декларативный и SQL-подобный язык запросов.
 
 В далеком 2016 году Иван Блинков [опубликовал статью на Хабре](https://habr.com/ru/companies/yandex/articles/312430/) с подробными объяснениями предпосылок возникновения и принципов построения YQL. На скриншотах даже виден кластер `Hahn` ;)

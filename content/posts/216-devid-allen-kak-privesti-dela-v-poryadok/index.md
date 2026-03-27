@@ -13,7 +13,7 @@ tracker: "BLOG-216"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/116)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 Меня периодически спрашивают, что можно почитать по разработке, менеджменту и вообще. Я рассказывал, что использую [методологию GTD](https://tarmolov.ru/posts/98-pro-gtd/), поэтому первая книжка будет о GTD :)
 

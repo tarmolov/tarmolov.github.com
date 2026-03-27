@@ -13,7 +13,7 @@ tracker: "BLOG-173"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/85)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 На фотографии [Мисайлово](https://yandex.ru/maps/-/CCUjuMdjLD) — одна из самых крупных деревень Росиии.
 

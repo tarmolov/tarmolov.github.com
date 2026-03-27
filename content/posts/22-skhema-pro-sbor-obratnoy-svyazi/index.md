@@ -13,6 +13,6 @@ tracker: "BLOG-22"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/24)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5307971239144440748-y.jpg](images/telegram-cloud-photo-size-2-5307971239144440748-y.webp) 
+ ![telegram-cloud-photo-size-2-5307971239144440748-y.jpg](images/feature.webp) 
 
 Ну и куда же без наглядной схемки про сбор обратной связи :)

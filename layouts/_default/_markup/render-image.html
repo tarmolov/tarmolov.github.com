@@ -1,5 +1,9 @@
 {{ $src := .Destination }}
 {{ if not (or (hasPrefix $src "http://") (hasPrefix $src "https://")) }}
-  {{ $src = printf "%s%s" "/" (strings.TrimPrefix "/" $src) }}
+  {{ if hasPrefix $src "/" }}
+    {{/* absolute site path — keep as-is */}}
+  {{ else }}
+    {{ $src = printf "%s%s" .Page.RelPermalink $src }}
+  {{ end }}
 {{ end }}
 <img loading="lazy" src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} />

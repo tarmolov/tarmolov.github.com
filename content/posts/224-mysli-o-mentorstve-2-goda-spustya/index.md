@@ -13,7 +13,7 @@ tracker: "BLOG-224"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/182)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 Я участвую во [внутренней программе менторства](https://tarmolov.ru/posts/55-o-mentorstve/) более двух лет и возглавляю топ активных менторов в Яндексе. За это время ко мне обратилось 60+ человек.
 

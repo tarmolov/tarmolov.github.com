@@ -11,7 +11,7 @@ tracker: "BLOG-226"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/142)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 Этот канал использует [самописную платформу](https://tarmolov.ru/posts/157-avtomatizatsiya-vedeniya-bloga/), которая связывает Яндекс Трекер и Телеграм. Она помогает мне ежедневно создавать, проверять и публиковать посты.
 

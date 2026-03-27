@@ -13,7 +13,7 @@ tracker: "BLOG-36"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/38)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5371057436775006991-y.jpg](images/telegram-cloud-photo-size-2-5371057436775006991-y.webp) 
+ ![telegram-cloud-photo-size-2-5371057436775006991-y.jpg](images/feature.webp) 
 
 Андрей Стыскин [показывал](https://disk.yandex.ru/i/N3X5E3YcPaLnsA) примерное распределение оценок по результатам ревью.
 

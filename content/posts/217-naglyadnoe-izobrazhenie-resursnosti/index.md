@@ -13,7 +13,7 @@ tracker: "BLOG-217"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/183)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 Перед тем как ввязываться в новую карьерную авантюру, нужно запастись энергией — ["быть в ресурсе"](https://tarmolov.ru/posts/56-resursnoe-i-neresursnoe-sostoyanie/).
 

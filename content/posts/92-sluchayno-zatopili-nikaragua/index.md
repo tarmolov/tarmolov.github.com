@@ -13,7 +13,7 @@ tracker: "BLOG-92"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/150)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 Чтобы получилась карта, необходимы два компонента: данные и рендерер карты.
 

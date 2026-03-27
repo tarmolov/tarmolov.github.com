@@ -13,7 +13,7 @@ tracker: "BLOG-219"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/127)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 Время от времени буду делиться с вами цитатами из жизни яндексоидов. Некоторые из них поучительные, некоторые смешные, некоторые просто жизненные.
 

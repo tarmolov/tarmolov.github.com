@@ -13,7 +13,7 @@ tracker: "BLOG-73"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/88)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 В прошлом году я [рассказывал](https://tarmolov.ru/posts/13-chto-takoe-revyu/) о ревью в нашей компании. И даже рисовал [ревьюшное колесо](https://tarmolov.ru/posts/14-revyushnoe-kolesa/) для наглядности.
 

@@ -13,7 +13,7 @@ tracker: "BLOG-258"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/185)
 {{< /alert >}}
 
-![image.png](images/image.webp)
+![image.png](images/feature.webp)
 
 Определить [видение своего будущего](https://tarmolov.ru/posts/57-prostoy-freymvork-dlya-razmyshleniy-o-karere/) — непростая задача. Если вы "буксуете" в этой задаче, то вы не одиноки.
 

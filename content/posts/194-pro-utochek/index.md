@@ -13,7 +13,7 @@ tracker: "BLOG-194"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/231)
 {{< /alert >}}
 
-![image.png](images/image.webp) 
+![image.png](images/feature.webp) 
 В мире разработки утки – особые герои. Не уступают [гусям](https://tarmolov.ru/posts/76-gusi-na-khurale/) ;) 
 
 Разработчики часто применяют [утиную типизацию](https://ru.wikipedia.org/wiki/%D0%A3%D1%82%D0%B8%D0%BD%D0%B0%D1%8F_%D1%82%D0%B8%D0%BF%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F) в слаботипизированных языках, а точнее [утиный тест](https://ru.wikipedia.org/wiki/%D0%A3%D1%82%D0%B8%D0%BD%D1%8B%D0%B9_%D1%82%D0%B5%D1%81%D1%82):

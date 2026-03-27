@@ -11,6 +11,6 @@ tracker: "BLOG-8"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/10)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5249298167655153703-y.jpg](images/telegram-cloud-photo-size-2-5249298167655153703-y.webp) 
+ ![telegram-cloud-photo-size-2-5249298167655153703-y.jpg](images/feature.webp) 
 
 Откопал немного фоток. Вот так выглядела первая версия стенда с устройствами

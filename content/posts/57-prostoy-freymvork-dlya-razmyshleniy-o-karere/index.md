@@ -13,7 +13,7 @@ tracker: "BLOG-57"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/184)
 {{< /alert >}}
 
-![image.png](images/image.webp) 
+![image.png](images/feature.webp) 
 Я уже [писал](https://tarmolov.ru/posts/176-voprosy-mne-kak-mentoru/), что большинство вопросов мне как ментору поступает про карьерное развитие.
 
 Сперва я рекомендую сформировать видение будущего: ценности, навыки, опыт и т.д. Получаем своего рода "систему координат".
