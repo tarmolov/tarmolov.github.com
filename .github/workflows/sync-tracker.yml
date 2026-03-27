@@ -1,0 +1,34 @@
+name: Sync Tracker
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # каждый день в 19:00 МСК (16:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run sync
+        env:
+          TRACKER_TOKEN: ${{ secrets.TRACKER_TOKEN }}
+          TRACKER_ORG_ID: ${{ secrets.TRACKER_ORG_ID }}
+          CONTENT_DIR: ${{ github.workspace }}/content/posts
+          STATE_FILE: ${{ github.workspace }}/.tracker-state.json
+        run: python3 scripts/fetch-tracker.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/posts .tracker-state.json
+          git diff --cached --quiet || git commit -m "chore: sync posts from Tracker"
+          git push
