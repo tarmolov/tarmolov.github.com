@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "Обо мне"
 url: /about/
 ---
 
-I'm Alexander Tarmolov. I write about web development, tools, and things that interest me.
+Я Александр Тармолов. Пишу про работу, инструменты и процессы.
 
-You can find me on [GitHub](https://github.com/tarmolov) and [Telegram](https://t.me/tarmolov_work).
+Найти меня можно на [GitHub](https://github.com/tarmolov) и в [Telegram](https://t.me/tarmolov_work).

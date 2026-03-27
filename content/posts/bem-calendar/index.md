@@ -4,6 +4,9 @@ date: 2013-09-22T19:31:12+00:00
 slug: bem-calendar
 categories:
   - blog
+cover:
+  image: /i/bem-calendar/image_blocks_all.png
+  alt: "Calendar blocks"
 ---
 
 First of all, a little preface. A couple of weeks ago I got to know about Frontend Developer School run by [HeadHunter](http://hh.ru/locale.do?language=EN). The entering assignment was to make a simple calendar. This issue seemed to be quite interesting for me and I decided to solve it using new [bem-core](https://github.com/bem/bem-core/) library.
@@ -26,7 +29,7 @@ Let us start with Design part.
 
 [BEM methodology](http://bem.info/) teaches you that a first step of building web site is to mark out page blocks. In my case it is an easy peasy issue because of the simplicity of this page.
 
-[![Calendar blocks](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_all.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_all.png)
+[![Calendar blocks](/i/bem-calendar/image_blocks_all.png)](/i/bem-calendar/image_blocks_all.png)
 
 I have only four major blocks:
 
@@ -37,7 +40,7 @@ I have only four major blocks:
 
 I marked blocks on the screenshot below:
 
-[![Calendar blocks](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_main.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_blocks/image_blocks_main.png)
+[![Calendar blocks](/i/bem-calendar/image_blocks_main.png)](/i/bem-calendar/image_blocks_main.png)
 
 The next step is much more interesting. How to connect these blocks and make the application work?
 
@@ -45,7 +48,7 @@ It seems that I need a small but robust architecture for the calendar.
 
 I liked the approach presented by Nicholas C. Zakas and called [Scalable JavaScript Application Architecture](http://www.youtube.com/watch?v=7BGvy-S-Iag). The major idea is to divide responsibility and business logic among several layers of an application. Each layer has knowledge only about adjacent layers.
 
-[![Level of abstractions](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_zakas.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_zakas.png)
+[![Level of abstractions](/i/bem-calendar/image_design_zakas.png)](/i/bem-calendar/image_design_zakas.png)
 
 In my case this paradigm does not work completely because of bem-core. I will explain the reason later but now a couple of words about the library.
 
@@ -59,7 +62,7 @@ In [the official page](https://github.com/bem/bem-core/) we can read the followi
 So why cannot I implement this paradigm completely? The case is bem-core uses jQuery which penetrated into all parts of ```i-bem```. As a result you have to use jQuery in your BEM blocks because blocks know about base library.
 
 My architecture overview is presented in a diagram below:
-[![Architecture overview](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/image/_design/image_design_tarmolov.png)
+[![Architecture overview](/i/bem-calendar/image_design_tarmolov.png)](/i/bem-calendar/image_design_tarmolov.png)
 
 As you can see that BEM is not displayed on the diagram. In my opinion base architecture should not depend on BEM or other methodology.
 
@@ -86,11 +89,11 @@ In the calendar the components work as controllers an communicate only through t
 
 More details you can see on the class diagram:
 
-[![Class diagram](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_class/uml_class_main.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_class/uml_class_main.png)
+[![Class diagram](/i/bem-calendar/uml_class_main.png)](/i/bem-calendar/uml_class_main.png)
 
 Application start sequence is obvious and straightforward:
 
-[![Application start](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_sequence/uml_sequence_application-start.png)](https://raw.github.com/tarmolov/bem-calendar/master/doc/uml/_sequence/uml_sequence_application-start.png)
+[![Application start](/i/bem-calendar/uml_sequence_application-start.png)](/i/bem-calendar/uml_sequence_application-start.png)
 
 It looks quite simple and works the same way ;)
 

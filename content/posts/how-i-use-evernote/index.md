@@ -4,6 +4,9 @@ date: 2014-02-26T16:03:35+00:00
 slug: how-i-use-evernote
 categories:
   - blog
+cover:
+  image: /i/evernote_my.png
+  alt: "My Evernote configuration"
 ---
 
 ![My Evernote configuration](/i/evernote_my.png)

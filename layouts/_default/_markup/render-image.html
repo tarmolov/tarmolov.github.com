@@ -1,1 +1,5 @@
-<img loading="lazy" src="{{ .Page.Site.BaseURL }}{{ strings.TrimPrefix "/" .Destination }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} />
+{{ $src := .Destination }}
+{{ if not (or (hasPrefix $src "http://") (hasPrefix $src "https://")) }}
+  {{ $src = printf "%s%s" .Page.Site.BaseURL (strings.TrimPrefix "/" $src) }}
+{{ end }}
+<img loading="lazy" src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} />
