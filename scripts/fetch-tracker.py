@@ -189,18 +189,22 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
         att_id_m = re.search(r'/attachments/(\d+)', url_part)
         att_id = att_id_m.group(1) if att_id_m else None
 
-        fname = None
-        if att_id and att_id in attachments_by_name:
-            fname = attachments_by_name[att_id]["display"]
+        # Use attachment metadata for filename and download URL
+        if att_id and att_id in attachments_by_id:
+            att = attachments_by_id[att_id]
+            fname = att["name"] or fname_from_url(url_part)
+            download_url = att["content_url"] or full_url
         elif alt and '.' in alt:
             fname = alt
+            download_url = full_url
         else:
             fname = fname_from_url(url_part)
+            download_url = full_url
 
         dest_subdir = "videos" if is_video(fname) else "images"
         dest = post_dir / dest_subdir / fname
 
-        if download_to(full_url, dest, auth=True):
+        if download_to(download_url, dest, auth=True):
             return f"![{alt}]({dest_subdir}/{fname})"
         return m.group(0)
 
@@ -244,10 +248,11 @@ def issue_to_markdown(issue, site_url_map, post_dir):
     except Exception:
         date_str = pub_date_raw
 
-    # Build attachment id→info map
+    # Build attachment id→info map  {id: {name, content_url}}
     attachments = get_issue_attachments(key)
     attachments_by_id = {
-        str(a.get("id", "")): a for a in attachments
+        str(a.get("id", "")): {"name": a.get("name", ""), "content_url": a.get("content", "")}
+        for a in attachments
     }
 
     body = process_description(description, key, site_url_map, post_dir, attachments_by_id)
