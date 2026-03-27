@@ -1,3 +1,9 @@
 header {
   margin-top: 1rem;
 }
+
+/* Fix search modal on iOS: keyboard shifts viewport, modal must follow */
+#search-wrapper {
+  height: 100dvh;
+}
+
