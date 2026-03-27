@@ -1,0 +1,23 @@
+colorScheme = "ocean"
+enableSearch = true
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  recentLimit = 5
+
+[author]
+  name = "Тармолов про работу"
+  headline = "Александр Тармолов"
+  bio = "Пишу про работу, инструменты и процессы."
+
+[article]
+  showDate = true
+  showAuthor = false
+  showReadingTime = true
+  showTableOfContents = true
+
+[list]
+  showCards = true
