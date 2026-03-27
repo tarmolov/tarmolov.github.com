@@ -13,7 +13,7 @@ tracker: "BLOG-236"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/144)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 
 [Ачивки](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D1%81%D1%82%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_(%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5_%D0%B8%D0%B3%D1%80%D1%8B)) из игровой индустрии уже давно перекочевали в реальную жизнь. Геймификация используется и в разработке, и в продажах, и в маркетинге, и даже в работе.
 

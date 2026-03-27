@@ -13,7 +13,7 @@ tracker: "BLOG-200"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/91)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 
 В эту среду я устроил настоящий почтовый апокалипсис.
 

@@ -13,7 +13,7 @@ tracker: "BLOG-307"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/242)
 {{< /alert >}}
 
-![](images/feature.webp)  
+![](feature.webp)  
 Разговаривал на работе про [span of control](https://en.wikipedia.org/wiki/Span_of_control) и захотел поделиться с вами.
 
 **Span of control (SOC)** — это количество неруководителей поделить на количество руководителей, т.е. этот коэффициент показывает среднее количество прямых подчиненных у руководителя.

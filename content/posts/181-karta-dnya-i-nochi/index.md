@@ -13,7 +13,7 @@ tracker: "BLOG-181"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/74)
 {{< /alert >}}
 
-{{< video "videos/night-overlay-480.mp4" >}}
+{{< video "night-overlay-480.mp4" >}}
 
 — У вас уже ночь?
 — Нет, сумерки.

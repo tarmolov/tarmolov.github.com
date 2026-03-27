@@ -14,7 +14,7 @@ tracker: "BLOG-191"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/79)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 
 Наша команда картографов занимается подготовкой к новому году очень глобально — ставит [новогодние елки](https://yandex.ru/maps/-/CCUryCQugC) прямо на картах. [Народные картографы](https://yandex.ru/blog/company/90803) помогают делать наши карты точнее, и поиск елок — [не исключение](https://yandex.ru/q/nmaps/12552299266/).
 

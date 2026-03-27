@@ -13,7 +13,7 @@ tracker: "BLOG-230"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/188)
 {{< /alert >}}
 
-{{< video "videos/traffic-lights-disco-720.mp4" >}}
+{{< video "traffic-lights-disco-720.mp4" >}}
 
 [Наш светофор](https://tarmolov.ru/posts/129-istoriya-svetofora/) включает режим дискотеки в  праздничных случаях, например, в Новый год.
 

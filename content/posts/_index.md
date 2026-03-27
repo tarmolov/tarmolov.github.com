@@ -1,3 +1,5 @@
 ---
 title: "Посты"
+aliases:
+  - /archives/
 ---

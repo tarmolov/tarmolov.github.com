@@ -14,7 +14,7 @@ tracker: "BLOG-189"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/76)
 {{< /alert >}}
 
-{{< video "videos/YandexHD_v14_h264_tg.mp4" >}}
+{{< video "YandexHD_v14_h264_tg.mp4" >}}
 
 Карты постоянно эволюционируют. Уже сейчас заметна невероятная разница между [первой версией карт](https://t.me/tarmolov_work/6) и той, что сейчас вы видите в приложении или веб-версии.
 

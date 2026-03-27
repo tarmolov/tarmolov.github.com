@@ -11,6 +11,6 @@ tracker: "BLOG-6"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/8)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5249131432729755420-y.jpg](images/feature.webp) 
+ ![telegram-cloud-photo-size-2-5249131432729755420-y.jpg](feature.webp) 
 
 Для понимания. Вот так выглядит стол-стул

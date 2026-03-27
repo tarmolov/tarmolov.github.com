@@ -13,7 +13,7 @@ tracker: "BLOG-198"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/103)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 
 В 2012 году Джеймс Кэмерон осуществил погружение на дно глубочайшей впадины мирового океана — в «Бездну Челленджера» (Марианская впадина).
 

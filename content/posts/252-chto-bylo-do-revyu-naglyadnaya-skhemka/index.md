@@ -13,5 +13,5 @@ tracker: "BLOG-252"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/173)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 Ну и куда же без наглядной схемки ;)

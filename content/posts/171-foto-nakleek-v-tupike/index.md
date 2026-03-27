@@ -13,7 +13,7 @@ tracker: "BLOG-171"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/89)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 
 Я [рассказывал](https://tarmolov.ru/posts/81-pro-tupik/) о тупике, где сидит моя команда. Был сделан первый подход к решению проблемы — "разъяснительная работа".
 

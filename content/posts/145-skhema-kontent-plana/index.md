@@ -11,5 +11,5 @@ tracker: "BLOG-145"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/47)
 {{< /alert >}}
 
- ![image.png](images/feature.webp)
+ ![image.png](feature.webp)
  Можно вести свой контент-план в виде таблички или списка, но я решил выбрать более наглядный вариант — в виде своего рода диаграммы.

@@ -13,7 +13,7 @@ tracker: "BLOG-187"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/96)
 {{< /alert >}}
 
-![telegram-cloud-photo-size-2-5397577756021207556-y.jpg](images/feature.webp) 
+![telegram-cloud-photo-size-2-5397577756021207556-y.jpg](feature.webp) 
 
 Сегодня будет не байка, а загадка из архивных фоток.
 

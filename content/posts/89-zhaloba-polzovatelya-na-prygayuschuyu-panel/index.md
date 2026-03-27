@@ -13,7 +13,7 @@ tracker: "BLOG-89"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/201)
 {{< /alert >}}
 
-![image.png](images/feature.webp) 
+![image.png](feature.webp) 
 Мы постоянно проводим [a/b эксперименты](https://tarmolov.ru/posts/88-chto-takoe-ab-eksperimenty/) для пошагового улучшения наших сервисов.
 
 Один из таких экспериментов был про перенос панели с результами поиска из правой части интерфейса:

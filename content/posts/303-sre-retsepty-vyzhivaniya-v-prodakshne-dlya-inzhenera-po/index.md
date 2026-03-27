@@ -14,7 +14,7 @@ tracker: "BLOG-303"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/238)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 Книга — лучший подарок, особенно если это [SRE. Рецепты выживания в продакшне для инженера по надежности](https://www.litres.ru/book/natalya-savenkova/sre-recepty-vyzhivaniya-v-prodakshene-dlya-inzhenera-po-70232503/) Наташи Савенковой. Мне посчастливилось получить её от самого автора.
 
 Эта книга — квинтэссенция опыта из жизни яндексового SRE, без лишней воды, кратко и по делу.

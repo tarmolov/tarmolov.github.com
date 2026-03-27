@@ -13,7 +13,7 @@ tracker: "BLOG-3"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/5)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5242597765270328432-y.jpg](images/feature.webp) 
+ ![telegram-cloud-photo-size-2-5242597765270328432-y.jpg](feature.webp) 
 
 BTW сегодня важный день. Именно в этот день были опубликованы первые карты Яндекса.
 

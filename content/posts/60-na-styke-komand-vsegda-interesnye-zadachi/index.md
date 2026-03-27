@@ -13,7 +13,7 @@ tracker: "BLOG-60"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/106)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 Один из самых популярных запросов мне, как ментору, примерно следующий:
 "Мои задачи — скучные. Хочу что-то интересное и челленджевое! Что делать?"
 

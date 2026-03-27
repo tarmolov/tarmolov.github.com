@@ -13,7 +13,7 @@ tracker: "BLOG-291"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/222)
 {{< /alert >}}
 
-{{< video "videos/YDEX_v003_cover_1.mp4" >}}
+{{< video "YDEX_v003_cover_1.mp4" >}}
 
 [Роботы-доставщики](https://tarmolov.ru/posts/270-vystavka-roverov-v-yandeks-muzee/) привозят не только еду из Лавки, но иногда что-то неожиданное — например, [тикер YDEX на Московскую биржу](https://t.me/MoscowExchangeOfficial/2656).
 

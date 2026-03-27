@@ -11,7 +11,7 @@ tracker: "BLOG-192"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/81)
 {{< /alert >}}
 
-{{< video "videos/Christmas_tree.mp4" >}}
+{{< video "Christmas_tree.mp4" >}}
 
 > Яндекс, раз-два-три, ёлочка гори!
 

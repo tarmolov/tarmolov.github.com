@@ -13,7 +13,7 @@ tracker: "BLOG-76"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/132)
 {{< /alert >}}
 
-{{< video "videos/goose.mp4" >}}
+{{< video "goose.mp4" >}}
 
 Сегодня поговорим про “гусиный феномен” в Яндексе. Алексей Ионов [описывает его](https://vc.ru/yandex/491916-razdobyt-beydzhik-yandeksa-i-izuchit-kompaniyu-iznutri) так:
 

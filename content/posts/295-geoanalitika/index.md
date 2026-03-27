@@ -13,7 +13,7 @@ tracker: "BLOG-295"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/235)
 {{< /alert >}}
 
-{{< video "videos/geoanalytics 720.mp4" >}}
+{{< video "geoanalytics 720.mp4" >}}
 
 Сегодня мы запустили [«Геоаналитику»](https://yandex.ru/geoanalytics/platform) — бесплатный инструмент для изучения потенциала районов города на основе геопривязанных данных о трафике и поисковых запросов из Яндекс Карт.
 

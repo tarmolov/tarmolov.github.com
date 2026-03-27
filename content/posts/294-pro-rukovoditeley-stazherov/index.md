@@ -13,7 +13,7 @@ tracker: "BLOG-294"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/228)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 Год назад я [писал заметку](https://tarmolov.ru/posts/66-chto-menyaetsya-kogda-stanovishsya-rukovoditelem/) про то, что когда становишься руководителем, то очень многое меняется.
 
 Разработчики, которые органически вырастают до руководителя, думают, что это просто следующая ступенька после старшего специалиста. Но это не так.

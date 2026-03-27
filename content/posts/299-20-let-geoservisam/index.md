@@ -13,5 +13,5 @@ tracker: "BLOG-299"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/233)
 {{< /alert >}}
 
-![image.png](images/feature.webp) 
+![image.png](feature.webp) 
 Геосервисам исполнилось 20 лет! Как время летит! Успехов и новых свершений всем нам!

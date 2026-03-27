@@ -12,4 +12,4 @@ tracker: "BLOG-20"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/22)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5305630288694592260-y.jpg](images/feature.webp) 
+ ![telegram-cloud-photo-size-2-5305630288694592260-y.jpg](feature.webp) 

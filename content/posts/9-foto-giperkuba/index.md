@@ -11,7 +11,7 @@ tracker: "BLOG-9"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/11)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5249298167655153764-y.jpg](images/feature.webp) 
+ ![telegram-cloud-photo-size-2-5249298167655153764-y.jpg](feature.webp) 
 
 А вот это уже современный технологичный способ доступа к тестовым устройствам.
 

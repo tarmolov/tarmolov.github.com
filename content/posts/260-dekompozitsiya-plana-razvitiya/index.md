@@ -13,7 +13,7 @@ tracker: "BLOG-260"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/187)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 Обычно [высокоуровневый план развития](https://tarmolov.ru/posts/258-postroenie-plana-razvitiya/) отвечает на вопрос "куда можно развиваться", но не отвечает — "что конкретно делать".
 
 Чтобы ответить на второй вопрос, необходимо декомпозировать высокоуровневое направление.

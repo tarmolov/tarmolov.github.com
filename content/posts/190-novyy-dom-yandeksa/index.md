@@ -14,7 +14,7 @@ tracker: "BLOG-190"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/77)
 {{< /alert >}}
 
-{{< video "videos/yandex_office.mp4" >}}
+{{< video "yandex_office.mp4" >}}
 
 Чуть не забыл! В следующем году у Яндекса появится новый ~~офис~~ дом в Москве.
 

@@ -11,7 +11,7 @@ tracker: "BLOG-253"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/174)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 Я люблю улучшения UX обыденных задач. Например, оффлайн похода за покупками. Не все же заказывать онлайн?
 
 В 2017 году Amazon запустил [магазин без кассиров](https://en.wikipedia.org/wiki/Amazon_Go), но эти магазины [не прижились](https://clck.ru/36QKVf). Получилось технологично, но дорого для масштабирования.

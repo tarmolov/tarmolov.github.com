@@ -15,7 +15,7 @@ tracker: "BLOG-332"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/266)
 {{< /alert >}}
 
-![image.png](images/feature.webp) 
+![image.png](feature.webp) 
 
 Наверняка вы не знали, что при запуске нейронки [мило урчат](https://t.me/denissexy/10941).
 

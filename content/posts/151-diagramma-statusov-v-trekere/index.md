@@ -11,7 +11,7 @@ tracker: "BLOG-151"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/69)
 {{< /alert >}}
 
-![image.png](images/feature.webp) 
+![image.png](feature.webp) 
 
 Вот так выглядит адаптация статусов разработки в написание постов. 
 

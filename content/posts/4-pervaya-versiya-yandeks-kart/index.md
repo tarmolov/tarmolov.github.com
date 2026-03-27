@@ -13,7 +13,7 @@ tracker: "BLOG-4"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/6)
 {{< /alert >}}
 
- ![telegram-cloud-photo-size-2-5246742228322337526-x.jpg](images/feature.webp) 
+ ![telegram-cloud-photo-size-2-5246742228322337526-x.jpg](feature.webp) 
 
 Кстати, про первую версию Яндекс Карт.
 

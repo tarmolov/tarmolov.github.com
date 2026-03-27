@@ -13,7 +13,7 @@ tracker: "BLOG-204"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/100)
 {{< /alert >}}
 
-{{< video "videos/parking.mp4" >}}
+{{< video "parking.mp4" >}}
 
 Сегодня мы [запустили оплату парковок](https://vc.ru/transport/621704-yandeks-karty-dobavili-oplatu-parkovki-v-moskve) в Яндекс Картах.
 

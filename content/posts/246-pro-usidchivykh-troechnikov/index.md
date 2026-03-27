@@ -13,7 +13,7 @@ tracker: "BLOG-246"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/164)
 {{< /alert >}}
 
-![image.png](images/feature.webp)
+![image.png](feature.webp)
 На первом занятии по высшей математике в университете преподаватель [Феоктистов В.В.](http://fn.bmstu.ru/tm-fs-11/71-fn-dep/mat-modeling/general/persons/prepods/258-fn12-persons-feoktistov) нарисовал картинку человечков-треугольничков.
 
 Уровень студентов на первом курсе был разным: от обычной школы до физмата. Для кого-то материал был новым, а кто-то его лишь повторял.

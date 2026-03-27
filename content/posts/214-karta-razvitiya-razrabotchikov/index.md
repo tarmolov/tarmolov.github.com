@@ -13,7 +13,7 @@ tracker: "BLOG-214"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/160)
 {{< /alert >}}
 
-![telegram-cloud-photo-size-2-5431578065756081872-y.jpg](images/feature.webp)
+![telegram-cloud-photo-size-2-5431578065756081872-y.jpg](feature.webp)
 Я уже [упоминал](https://tarmolov.ru/posts/62-o-razvitii-sotrudnikov/), что о своем развитии должен думать в первую очередь сам сотрудник.
 
 Самое сложное — понять, в каком направлении сделать первый шаг.

@@ -170,6 +170,12 @@ def download_to(url, dest, auth=False):
 def is_video(fname):
     return Path(fname).suffix.lower() in {'.mp4', '.mov', '.webm', '.avi'}
 
+def _feature_name(fname, counter):
+    """First image becomes feature.{ext} for Blowfish card support."""
+    if counter[0] == 0:
+        return f"feature{Path(fname).suffix.lower()}"
+    return fname
+
 def make_summary(text, max_chars=200):
     """Extract plain-text summary from markdown: first non-empty paragraph, stripped of markup."""
     for para in re.split(r'\n{2,}', text):
@@ -198,6 +204,7 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
     if not description:
         return ""
     text = description
+    image_counter = [0]  # mutable counter shared across replace functions
 
     # 1. Replace BLOG issue links with siteUrl
     def replace_blog_link(m):
@@ -238,11 +245,14 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
             fname = fname_from_url(url_part)
             download_url = full_url
 
-        dest_subdir = "videos" if is_video(fname) else "images"
-        dest = post_dir / dest_subdir / fname
+        if not is_video(fname):
+            fname = _feature_name(fname, image_counter)
+            image_counter[0] += 1
+        dest = post_dir / fname
+        rel = fname
 
         if download_to(download_url, dest, auth=True):
-            return f"![{alt}]({dest_subdir}/{fname})"
+            return f"![{alt}]({rel})"
         return m.group(0)
 
     text = ATTACHMENT_RE.sub(replace_attachment, text)
@@ -251,9 +261,11 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
     def replace_ext_image(m):
         alt, url = m.group(1), m.group(2)
         fname = fname_from_url(url)
-        dest = post_dir / "images" / fname
+        fname = _feature_name(fname, image_counter)
+        image_counter[0] += 1
+        dest = post_dir / fname
         if download_to(url, dest):
-            return f"![{alt}](images/{fname})"
+            return f"![{alt}]({fname})"
         return m.group(0)
     text = EXT_IMAGE_RE.sub(replace_ext_image, text)
 
@@ -261,9 +273,9 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
     def replace_ext_video(m):
         label, url = m.group(1), m.group(2)
         fname = fname_from_url(url)
-        dest = post_dir / "videos" / fname
+        dest = post_dir / fname
         if download_to(url, dest):
-            return f"[{label}](videos/{fname})"
+            return f"[{label}]({fname})"
         return m.group(0)
     text = EXT_VIDEO_RE.sub(replace_ext_video, text)
 
@@ -297,7 +309,7 @@ def issue_to_markdown(issue, site_url_map, post_dir):
         first = attachments[0]
         fname = first.get("name", "")
         if is_video(fname):
-            download_to(first.get("content", ""), post_dir / "videos" / fname, auth=True)
+            download_to(first.get("content", ""), post_dir / fname, auth=True)
 
     body = process_description(description, key, site_url_map, post_dir, attachments_by_id)
     summary = make_summary(body)
