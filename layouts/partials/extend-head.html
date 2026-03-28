@@ -1,7 +1,8 @@
-{{ if and (reflect.IsMap .) (isset . "IsHome") }}
-  {{ if .IsHome }}
-<style>
-  header a[href="{{ "/" | relURL }}"] { display: none; }
-</style>
+{{ with .MainSections }}{{ end }}
+{{/* Called with .Site context — use CurrentSection workaround */}}
+{{ if reflect.IsMap . }}
+  {{ $isHome := and (isset . "Kind") (eq .Kind "home") }}
+  {{ if $isHome }}
+<style>.main-menu a:first-child { display: none; }</style>
   {{ end }}
 {{ end }}
