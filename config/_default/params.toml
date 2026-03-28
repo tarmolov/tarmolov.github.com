@@ -1,4 +1,5 @@
 colorScheme = "slate"
+defaultSocialImage = "img/og-image.jpg"
 enableSearch = true
 defaultAppearance = "dark"
 autoSwitchAppearance = true
