@@ -15,5 +15,6 @@ header {
   top: 0;
   max-height: 100dvh;
   overflow-y: auto;
+  padding-bottom: env(keyboard-inset-height, 2rem);
 }
 
