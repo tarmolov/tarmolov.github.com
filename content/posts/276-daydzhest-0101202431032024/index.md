@@ -19,35 +19,35 @@ tracker: "BLOG-276"
 Для удобства посты разбиты по категориям и отсортированы по алфавиту.
 
 **Аналитика**
-* [Yandex Query Language](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/6)
+* [Yandex Query Language](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
 
 **Байки**
-* [Жалоба пользователя на прыгающую панель](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/1)
-* [Как инженеры сваи забивали](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/9)
-* [Про настойчивость и терпение](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/4)
+* [Жалоба пользователя на прыгающую панель](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
+* [Как инженеры сваи забивали](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
+* [Про настойчивость и терпение](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
 
 **Инфраструктура**
-* [YT — яндексовый MapReduce](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/5)
+* [YT — яндексовый MapReduce](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
 
 **Карьера**
-* [Эмоциональный банковский счет](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/1)
-* [Диверсификация счастья](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/4)
-* [Почему карьерный рост такой непонятный](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/2)
-* [Как подводить итоги года и ставить достижимые цели?](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/3)
-* [Карты навыков ML-разработчиков и фронтендеров](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/0)
-* [Принцип Парето, Мерфи, Паркинсона и Питера](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/2)
+* [Эмоциональный банковский счет](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
+* [Диверсификация счастья](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
+* [Почему карьерный рост такой непонятный](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
+* [Как подводить итоги года и ставить достижимые цели?](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
+* [Карты навыков ML-разработчиков и фронтендеров](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
+* [Принцип Парето, Мерфи, Паркинсона и Питера](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
 
 **Книги**
-* [Рей Далио. Принципы](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/3)
+* [Рей Далио. Принципы](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
 
 **Новости**
-* [Выставка роверов в Яндекс Музее](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/7)
+* [Выставка роверов в Яндекс Музее](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
 
 **Руководство**
-* [Тимлид — операционная система по Таненбауму](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/8)
+* [Тимлид — операционная система по Таненбауму](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
 
 **Цитатник**
-* [Hairy Back Syndrome](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/0)
+* [Hairy Back Syndrome](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)
 
 **Яндекс**
-* [Выставка роверов в Яндекс Музее](https://tarmolov.ru/posts/17-nepravilnyy-klyuch/7)
+* [Выставка роверов в Яндекс Музее](https://tarmolov.ru/posts/17-nepravilnyy-klyuch)

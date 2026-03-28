@@ -19,50 +19,50 @@ tracker: "BLOG-233"
 Для удобства посты разбиты по категориям и отсортированы по алфавиту.
 
 **Байки**
-* [Письмо от мэрии нашему менеджеру](https://tarmolov.ru/posts/10-sostav-moey-komandy/3)
-* [Админ перезагрузил кластер вместо одного сервера](https://tarmolov.ru/posts/9-foto-giperkuba/8)
-* [Разработчик 1 и разработчик 2](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/4)
-* [Как я искал удобный способ оплаты](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/0)
+* [Письмо от мэрии нашему менеджеру](https://tarmolov.ru/posts/10-sostav-moey-komandy)
+* [Админ перезагрузил кластер вместо одного сервера](https://tarmolov.ru/posts/9-foto-giperkuba)
+* [Разработчик 1 и разработчик 2](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
+* [Как я искал удобный способ оплаты](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
 
 **Безопасность**
-* [Письмо от мэрии нашему менеджеру](https://tarmolov.ru/posts/10-sostav-moey-komandy/3)
-* [Взлом паролей роботом Marcus Brutus](https://tarmolov.ru/posts/10-sostav-moey-komandy/0)
-* [Фишинговые письма для сотрудников](https://tarmolov.ru/posts/10-sostav-moey-komandy/2)
-* [О службе безопасности](https://tarmolov.ru/posts/9-foto-giperkuba/9)
+* [Письмо от мэрии нашему менеджеру](https://tarmolov.ru/posts/10-sostav-moey-komandy)
+* [Взлом паролей роботом Marcus Brutus](https://tarmolov.ru/posts/10-sostav-moey-komandy)
+* [Фишинговые письма для сотрудников](https://tarmolov.ru/posts/10-sostav-moey-komandy)
+* [О службе безопасности](https://tarmolov.ru/posts/9-foto-giperkuba)
 
 **Гео**
-* [История светофора](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/5)
+* [История светофора](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
 
 **Инфраструктура**
-* [Окружения сервиса: testing, prestable, production](https://tarmolov.ru/posts/10-sostav-moey-komandy/8)
-* [Debian-пакеты для деплоя сервисов](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/3)
+* [Окружения сервиса: testing, prestable, production](https://tarmolov.ru/posts/10-sostav-moey-komandy)
+* [Debian-пакеты для деплоя сервисов](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
 
 **Инциденты**
-* [Админ перезагрузил кластер вместо одного сервера](https://tarmolov.ru/posts/9-foto-giperkuba/8)
+* [Админ перезагрузил кластер вместо одного сервера](https://tarmolov.ru/posts/9-foto-giperkuba)
 
 **Карьера**
-* [Про честность](https://tarmolov.ru/posts/10-sostav-moey-komandy/6)
-* [Про шильдик "руководитель отдела"](https://tarmolov.ru/posts/10-sostav-moey-komandy/1)
+* [Про честность](https://tarmolov.ru/posts/10-sostav-moey-komandy)
+* [Про шильдик "руководитель отдела"](https://tarmolov.ru/posts/10-sostav-moey-komandy)
 
 **Книги**
-* [Дэвид Аллен: Как привести дела в порядок](https://tarmolov.ru/posts/9-foto-giperkuba/6)
+* [Дэвид Аллен: Как привести дела в порядок](https://tarmolov.ru/posts/9-foto-giperkuba)
 
 **Менеджмент**
-* [Про GTD](https://tarmolov.ru/posts/9-foto-giperkuba/4)
-* [Про Things](https://tarmolov.ru/posts/10-sostav-moey-komandy/5)
-* [Про календари](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/1)
+* [Про GTD](https://tarmolov.ru/posts/9-foto-giperkuba)
+* [Про Things](https://tarmolov.ru/posts/10-sostav-moey-komandy)
+* [Про календари](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
 
 **Менторство**
-* [Ресурсное и нересурсное состояние](https://tarmolov.ru/posts/9-foto-giperkuba/1)
+* [Ресурсное и нересурсное состояние](https://tarmolov.ru/posts/9-foto-giperkuba)
 
 **Разработка**
-* [Технологическое болото](https://tarmolov.ru/posts/9-foto-giperkuba/7)
+* [Технологическое болото](https://tarmolov.ru/posts/9-foto-giperkuba)
 
 **Цитатник**
-* [Имбирь с несахарным характером](https://tarmolov.ru/posts/10-sostav-moey-komandy/7)
+* [Имбирь с несахарным характером](https://tarmolov.ru/posts/10-sostav-moey-komandy)
 
 **Яндекс**
-* [Гуси на хурале](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/2)
-* [Что было до секций при найме](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/6)
-* [Про найм в Яндексе](https://tarmolov.ru/posts/10-sostav-moey-komandy/9)
-* [Ну где же ваши "ручки"?](https://tarmolov.ru/posts/10-sostav-moey-komandy/4)
+* [Гуси на хурале](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
+* [Что было до секций при найме](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
+* [Про найм в Яндексе](https://tarmolov.ru/posts/10-sostav-moey-komandy)
+* [Ну где же ваши "ручки"?](https://tarmolov.ru/posts/10-sostav-moey-komandy)

@@ -19,24 +19,24 @@ tracker: "BLOG-287"
 Для удобства посты разбиты по категориям и отсортированы по алфавиту.
 
 **Карьера**
-* [Круг влияния и круг забот](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/9)
-* [Наглядная картинка про рост бизнеса](https://tarmolov.ru/posts/19-1-podvedenie-itogov/0)
-* [Уменьшайте головную боль руководителя](https://tarmolov.ru/posts/19-1-podvedenie-itogov/1)
+* [Круг влияния и круг забот](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
+* [Наглядная картинка про рост бизнеса](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
+* [Уменьшайте головную боль руководителя](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
 
 **Новости**
-* [Есть идея!](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/6)
-* [Заопенсорсили YaFSDP](https://tarmolov.ru/posts/19-1-podvedenie-itogov/4)
+* [Есть идея!](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
+* [Заопенсорсили YaFSDP](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
 
 **Разработка**
-* [Метрики разработки](https://tarmolov.ru/posts/19-1-podvedenie-itogov/5)
-* [Метрика скорости производства](https://tarmolov.ru/posts/19-1-podvedenie-itogov/6)
-* [Метрики качества](https://tarmolov.ru/posts/19-1-podvedenie-itogov/7)
-* [Метрики надежности](https://tarmolov.ru/posts/19-1-podvedenie-itogov/8)
-* [Как я делал бекап фотографий](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/8)
+* [Метрики разработки](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
+* [Метрика скорости производства](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
+* [Метрики качества](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
+* [Метрики надежности](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
+* [Как я делал бекап фотографий](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
 
 **Финансы**
-* [Принцип водонапорной башни в финансах](https://tarmolov.ru/posts/19-1-podvedenie-itogov/3)
+* [Принцип водонапорной башни в финансах](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
 
 **Яндекс**
-* [Письмо с края Земли](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu/7)
-* [Разговор двух коллег](https://tarmolov.ru/posts/19-1-podvedenie-itogov/2)
+* [Письмо с края Земли](https://tarmolov.ru/posts/18-tyazhelye-periody-i-revyu)
+* [Разговор двух коллег](https://tarmolov.ru/posts/19-1-podvedenie-itogov)
