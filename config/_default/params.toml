@@ -14,7 +14,7 @@ smartTOCHideUnfocusedChildren = true
 [homepage]
   layout = "profile"
   showRecent = true
-  recentLimit = 5
+  recentLimit = 10
   showMoreLink = true
   showMoreLinkDest = "/posts/"
 
@@ -22,6 +22,10 @@ smartTOCHideUnfocusedChildren = true
   name = "Тармолов"
   headline = "про работу"
   image = "img/avatar.webp"
+  links = [
+    { telegram = "https://t.me/tarmolov_work" },
+    { github = "https://github.com/tarmolov" },
+  ]
 
 [article]
   showDate = true
