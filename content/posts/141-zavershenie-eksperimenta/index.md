@@ -17,7 +17,7 @@ tracker: "BLOG-141"
 
 **Метрики:**
 ✔️ Получить одобрение от команды (ok получен)
-✔️ [Наличие новых тем](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov/1) (в запасе еще 100 топиков)
+✔️ [Наличие новых тем](https://tarmolov.ru/posts/3-geopolis-den-rozhdeniya-geoservisov) (в запасе еще 100 топиков)
 ❓ Голосование коллег
 
 Друзья, нужно ваше мнение :)
