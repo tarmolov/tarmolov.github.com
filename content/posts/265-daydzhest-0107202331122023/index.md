@@ -20,79 +20,79 @@ tracker: "BLOG-265"
 Для удобства посты разбиты по категориям и отсортированы по алфавиту.
 
 **Байки**
-* [Начальник-самодур](https://tarmolov.ru/posts/14-revyushnoe-kolesa/6)
-* [Случайно затопили Никарагуа](https://tarmolov.ru/posts/13-chto-takoe-revyu/0)
-* [Окружение yandex-environment](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/9)
-* [На вертолете с Яндекс Картами](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/8)
-* [Большой секрет](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/8)
+* [Начальник-самодур](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
+* [Случайно затопили Никарагуа](https://tarmolov.ru/posts/13-chto-takoe-revyu)
+* [Окружение yandex-environment](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
+* [На вертолете с Яндекс Картами](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
+* [Большой секрет](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu)
 
 **Безопасность**
-* [Миграция с 1Password в Strongbox](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/0)
+* [Миграция с 1Password в Strongbox](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu)
 
 **Гео**
-* [Почему я так долго работаю в Геосервисах?](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/0)
-* [Внутри нашего светофора](https://tarmolov.ru/posts/13-chto-takoe-revyu/6)
-* [Режим дискотеки у светофора](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/8)
+* [Почему я так долго работаю в Геосервисах?](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
+* [Внутри нашего светофора](https://tarmolov.ru/posts/13-chto-takoe-revyu)
+* [Режим дискотеки у светофора](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy)
 
 **Инфраструктура**
-* [Текущая система деплоя Docker-образами](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/5)
-* [Технические детали debian-пакетов](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/7)
+* [Текущая система деплоя Docker-образами](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu)
+* [Технические детали debian-пакетов](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
 
 **Инциденты**
-* [Fuck Up Nights](https://tarmolov.ru/posts/14-revyushnoe-kolesa/2)
+* [Fuck Up Nights](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
 
 **Карты**
-* [3D модели достопримечательностей с ночной темой](https://tarmolov.ru/posts/13-chto-takoe-revyu/3)
+* [3D модели достопримечательностей с ночной темой](https://tarmolov.ru/posts/13-chto-takoe-revyu)
 
 **Карьера**
-* [Простой фреймворк для размышлений о карьере](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/4)
-* [Карта развития разработчиков ](https://tarmolov.ru/posts/14-revyushnoe-kolesa/0)
-* [Наглядное изображение ресурсности](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/3)
-* [Про хороших инженеров](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/1)
-* [Нужно учиться продавать](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/3)
-* [Лучше быть "вечным" стажером](https://tarmolov.ru/posts/13-chto-takoe-revyu/2)
-* [Куда пойти учиться](https://tarmolov.ru/posts/13-chto-takoe-revyu/5)
-* [Лучше помочь, чем не помочь](https://tarmolov.ru/posts/14-revyushnoe-kolesa/8)
-* [Про усидчивых троечников](https://tarmolov.ru/posts/14-revyushnoe-kolesa/4)
-* [Strategic Thinking](https://tarmolov.ru/posts/14-revyushnoe-kolesa/7)
-* [Построение плана развития](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/5)
-* [Декомпозиция плана развития](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/7)
+* [Простой фреймворк для размышлений о карьере](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy)
+* [Карта развития разработчиков ](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
+* [Наглядное изображение ресурсности](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy)
+* [Про хороших инженеров](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
+* [Нужно учиться продавать](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
+* [Лучше быть "вечным" стажером](https://tarmolov.ru/posts/13-chto-takoe-revyu)
+* [Куда пойти учиться](https://tarmolov.ru/posts/13-chto-takoe-revyu)
+* [Лучше помочь, чем не помочь](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
+* [Про усидчивых троечников](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
+* [Strategic Thinking](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
+* [Построение плана развития](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy)
+* [Декомпозиция плана развития](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy)
 
 **Книги**
-* [Стивен Кови. 7 навыков высокоэффективных людей](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/9)
-* [Евгений Черешнев: Форма жизни №4](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/1)
+* [Стивен Кови. 7 навыков высокоэффективных людей](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu)
+* [Евгений Черешнев: Форма жизни №4](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu)
 
 **Менеджмент**
-* [Доступное объяснение философии Agile](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/7)
+* [Доступное объяснение философии Agile](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu)
 
 **Менторство**
-* [Мысли о менторстве 2 года спустя](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/2)
+* [Мысли о менторстве 2 года спустя](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy)
 
 **Новости**
-* [3D модели достопримечательностей с ночной темой](https://tarmolov.ru/posts/13-chto-takoe-revyu/3)
+* [3D модели достопримечательностей с ночной темой](https://tarmolov.ru/posts/13-chto-takoe-revyu)
 
 **Разработка**
-* [Arc и единый репозиторий](https://tarmolov.ru/posts/14-revyushnoe-kolesa/3)
-* [О важности документации](https://tarmolov.ru/posts/14-revyushnoe-kolesa/5)
-* [Базовые знания о клиенте и сервере](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty/8)
-* [Не переоткрывайте задачи](https://tarmolov.ru/posts/13-chto-takoe-revyu/1)
+* [Arc и единый репозиторий](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
+* [О важности документации](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
+* [Базовые знания о клиенте и сервере](https://tarmolov.ru/posts/11-gibkiy-grafik-raboty)
+* [Не переоткрывайте задачи](https://tarmolov.ru/posts/13-chto-takoe-revyu)
 
 **Ревью**
-* [Что было до ревью](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/2)
-* [Что было до ревью (наглядная схемка)](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu/3)
+* [Что было до ревью](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu)
+* [Что было до ревью (наглядная схемка)](https://tarmolov.ru/posts/15-doklady-yandeksa-pro-revyu)
 
 **Руководство**
-* [О развитии сотрудников](https://tarmolov.ru/posts/13-chto-takoe-revyu/9)
-* [Темы для 1-1](https://tarmolov.ru/posts/13-chto-takoe-revyu/4)
-* [Что меняется когда становишься руководителем](https://tarmolov.ru/posts/14-revyushnoe-kolesa/9)
-* [Должен ли руководитель программировать](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/1)
+* [О развитии сотрудников](https://tarmolov.ru/posts/13-chto-takoe-revyu)
+* [Темы для 1-1](https://tarmolov.ru/posts/13-chto-takoe-revyu)
+* [Что меняется когда становишься руководителем](https://tarmolov.ru/posts/14-revyushnoe-kolesa)
+* [Должен ли руководитель программировать](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy)
 
 **Цитатник**
-* [Админы танцуют самбу](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/5)
-* [Отношения разработчика и ноутбка](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/9)
-* [Перевернуть котлетку](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy/0)
+* [Админы танцуют самбу](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
+* [Отношения разработчика и ноутбка](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
+* [Перевернуть котлетку](https://tarmolov.ru/posts/16-chto-takoe-intsidentyfakapy)
 
 **Яндекс**
-* [Капсулы для сна](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/6)
-* [Ачивки](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu/4)
-* [Не стыдно маме показать](https://tarmolov.ru/posts/13-chto-takoe-revyu/7)
+* [Капсулы для сна](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
+* [Ачивки](https://tarmolov.ru/posts/12-vstuplenie-pro-revyu)
+* [Не стыдно маме показать](https://tarmolov.ru/posts/13-chto-takoe-revyu)

@@ -20,82 +20,82 @@ tracker: "BLOG-213"
 
 **Байки**
 
-* [Почасовая оплата](https://tarmolov.ru/posts/6-foto-stol-stula/6)
-* [Злополучный перенос строки](https://tarmolov.ru/posts/6-foto-stol-stula/3)
-* [Обратный эксперимент для руководителя](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/5)
-* [Фото наклеек в тупике](https://tarmolov.ru/posts/6-foto-stol-stula/9)
-* [Про новогодний сбор елок](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/9)
-* [Байка про первое codereview](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/2)
-* [Ревью хозяюшки](https://tarmolov.ru/posts/7-o-rubrike-bayki/4)
-* [Почтовый апокалипсис](https://tarmolov.ru/posts/7-o-rubrike-bayki/1)
-* [Как экскаватор перерубил оптоволокно](https://tarmolov.ru/posts/9-foto-giperkuba/0)
+* [Почасовая оплата](https://tarmolov.ru/posts/6-foto-stol-stula)
+* [Злополучный перенос строки](https://tarmolov.ru/posts/6-foto-stol-stula)
+* [Обратный эксперимент для руководителя](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii)
+* [Фото наклеек в тупике](https://tarmolov.ru/posts/6-foto-stol-stula)
+* [Про новогодний сбор елок](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii)
+* [Байка про первое codereview](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
+* [Ревью хозяюшки](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [Почтовый апокалипсис](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [Как экскаватор перерубил оптоволокно](https://tarmolov.ru/posts/9-foto-giperkuba)
 
 **Безопасность**
 
-* [Компонент secret в трекере](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/4)
+* [Компонент secret в трекере](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
 
 **Гео**
 
-* [Чем занят разработчик?](https://tarmolov.ru/posts/7-o-rubrike-bayki/6)
-* [Дорожные работы и разговорчики в офисе](https://tarmolov.ru/posts/6-foto-stol-stula/7)
+* [Чем занят разработчик?](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [Дорожные работы и разговорчики в офисе](https://tarmolov.ru/posts/6-foto-stol-stula)
 
 **Инциденты**
 
-* [Злополучный перенос строки](https://tarmolov.ru/posts/6-foto-stol-stula/3)
+* [Злополучный перенос строки](https://tarmolov.ru/posts/6-foto-stol-stula)
 
 **Карты**
 
-* [Неудачное облачко](https://tarmolov.ru/posts/7-o-rubrike-bayki/7)
-* [Самая большая деревня в России](https://tarmolov.ru/posts/6-foto-stol-stula/5)
-* [HD карты](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/6)
-* [Про новогодний сбор елок](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/9)
-* [В Марианской впадине](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/3)
+* [Неудачное облачко](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [Самая большая деревня в России](https://tarmolov.ru/posts/6-foto-stol-stula)
+* [HD карты](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii)
+* [Про новогодний сбор елок](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii)
+* [В Марианской впадине](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
 
 **Карьера**
 
-* [Советы от @imperator по построению карьеры](https://tarmolov.ru/posts/7-o-rubrike-bayki/5)
-* [Ничего личного, это просто бизнес](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/7)
+* [Советы от @imperator по построению карьеры](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [Ничего личного, это просто бизнес](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
 
 **Команда**
 
-* [Среда — день жаб](https://tarmolov.ru/posts/7-o-rubrike-bayki/8)
+* [Среда — день жаб](https://tarmolov.ru/posts/7-o-rubrike-bayki)
 
 **Лайфхаки**
 
-* [Компонент secret в трекере](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/4)
+* [Компонент secret в трекере](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
 
 **Менеджмент**
 
-* [YearCompass](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/8)
-* [Чеклист запуска нового сервиса](https://tarmolov.ru/posts/6-foto-stol-stula/2)
-* [Путеводитель по сводам знаний](https://tarmolov.ru/posts/6-foto-stol-stula/4)
+* [YearCompass](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii)
+* [Чеклист запуска нового сервиса](https://tarmolov.ru/posts/6-foto-stol-stula)
+* [Путеводитель по сводам знаний](https://tarmolov.ru/posts/6-foto-stol-stula)
 
 **Менторство**
 
-* [О менторстве](https://tarmolov.ru/posts/7-o-rubrike-bayki/9)
-* [На стыке команд всегда интересные задачи](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/6)
-* [Ничего личного, это просто бизнес](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/7)
-* [Вопросы мне, как ментору](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/1)
+* [О менторстве](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [На стыке команд всегда интересные задачи](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
+* [Ничего личного, это просто бизнес](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
+* [Вопросы мне, как ментору](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
 
 **Новости**
 
-* [HD карты](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/6)
-* [Новый дом Яндекса](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/7)
-* [Оплата парковок](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/0)
+* [HD карты](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii)
+* [Новый дом Яндекса](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii)
+* [Оплата парковок](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
 
 **Разработка**
 
-* [Путеводитель по сводам знаний](https://tarmolov.ru/posts/6-foto-stol-stula/4)
+* [Путеводитель по сводам знаний](https://tarmolov.ru/posts/6-foto-stol-stula)
 
 **Ревью**
 
-* [Про мидревью](https://tarmolov.ru/posts/6-foto-stol-stula/8)
-* [Зачем нужна visibility деятельности?](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/9)
+* [Про мидревью](https://tarmolov.ru/posts/6-foto-stol-stula)
+* [Зачем нужна visibility деятельности?](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
 
 **Яндекс**
 
-* [Кофе-поинты](https://tarmolov.ru/posts/7-o-rubrike-bayki/0)
-* [Хозяюшки и a/b эксперименты](https://tarmolov.ru/posts/7-o-rubrike-bayki/2)
-* [Сырки БЮ Александров](https://tarmolov.ru/posts/7-o-rubrike-bayki/3)
-* [Новый дом Яндекса](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii/7)
-* [Счастье пользователей](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda/8)
+* [Кофе-поинты](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [Хозяюшки и a/b эксперименты](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [Сырки БЮ Александров](https://tarmolov.ru/posts/7-o-rubrike-bayki)
+* [Новый дом Яндекса](https://tarmolov.ru/posts/5-slozhnosti-kommunikatsii)
+* [Счастье пользователей](https://tarmolov.ru/posts/8-foto-pervoy-versii-mobilnogo-stenda)
