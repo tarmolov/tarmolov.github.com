@@ -1,5 +1,6 @@
 colorScheme = "slate"
 defaultSocialImage = "https://tarmolov.ru/og-image.jpg"
+description = "Александр Тармолов — про Яндекс, геосервисы, разработку и руководство"
 enableSearch = true
 defaultAppearance = "light"
 autoSwitchAppearance = true
