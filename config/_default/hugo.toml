@@ -3,7 +3,7 @@ languageCode = "ru"
 defaultContentLanguage = "ru"
 defaultContentLanguageInSubdir = false
 theme = "blowfish"
-title = "Тармолов про работу"
+title = "Тармолов"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
