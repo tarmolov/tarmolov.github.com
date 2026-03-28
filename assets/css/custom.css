@@ -1,3 +1,11 @@
+/* Center recent articles section on homepage */
+.home-profile-recent {
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 /* Increase base font size for better readability */
 html {
   font-size: 13pt;
