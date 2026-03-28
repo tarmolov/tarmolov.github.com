@@ -21,7 +21,7 @@ smartTOCHideUnfocusedChildren = true
 [author]
   name = "Тармолов"
   headline = "про работу"
-  image = "img/avatar.jpg"
+  image = "img/avatar.webp"
 
 [article]
   showDate = true
