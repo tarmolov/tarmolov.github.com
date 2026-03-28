@@ -1,3 +1,8 @@
+/* Increase base font size for better readability */
+html {
+  font-size: 13pt;
+}
+
 header {
   margin-top: 1rem;
 }
@@ -17,4 +22,3 @@ header {
   overflow-y: auto;
   padding-bottom: env(keyboard-inset-height, 2rem);
 }
-

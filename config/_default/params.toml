@@ -1,7 +1,15 @@
-colorScheme = "ocean"
+colorScheme = "slate"
 enableSearch = true
 defaultAppearance = "dark"
 autoSwitchAppearance = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+[header]
+  layout = "fixed-fill-blur"
+
+[footer]
+  showThemeAttribution = false
 
 [homepage]
   layout = "profile"
@@ -23,3 +31,5 @@ autoSwitchAppearance = true
 
 [list]
   showCards = true
+  showSummary = true
+  constrainItemsWidth = true
