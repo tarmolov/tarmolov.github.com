@@ -1,5 +1,5 @@
 colorScheme = "slate"
-defaultSocialImage = "img/og-image.jpg"
+defaultSocialImage = "https://tarmolov.ru/og-image.jpg"
 enableSearch = true
 defaultAppearance = "light"
 autoSwitchAppearance = true
