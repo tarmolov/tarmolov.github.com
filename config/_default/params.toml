@@ -1,7 +1,7 @@
 colorScheme = "slate"
 defaultSocialImage = "img/og-image.jpg"
 enableSearch = true
-defaultAppearance = "dark"
+defaultAppearance = "light"
 autoSwitchAppearance = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
