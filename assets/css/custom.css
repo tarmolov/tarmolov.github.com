@@ -2,8 +2,18 @@ header {
   margin-top: 1rem;
 }
 
-/* Fix search modal on iOS: keyboard shifts viewport, modal must follow */
+/* Fix search modal on iOS: keyboard shrinks viewport, modal must stay at top */
 #search-wrapper {
   height: 100dvh;
+  align-items: flex-start !important;
+  padding-bottom: 0 !important;
+  overflow-y: auto;
+}
+
+#search-modal {
+  position: sticky;
+  top: 0;
+  max-height: 100dvh;
+  overflow-y: auto;
 }
 
