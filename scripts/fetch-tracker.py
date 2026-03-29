@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 """
 Fetch posts from Yandex Tracker BLOG queue and convert to Hugo markdown.
+
+Modes:
+  - First run (no state): all tasks with Resolution: notEmpty()
+  - Subsequent runs: tasks Updated: month(), Resolution: notEmpty()
+
+Sort: Blog."время публикации" ASC
 """
 
 import os
@@ -10,6 +16,7 @@ import time
 import hashlib
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -19,19 +26,20 @@ OAUTH_TOKEN    = os.environ["TRACKER_TOKEN"]
 ORG_ID         = os.environ["TRACKER_ORG_ID"]
 SITE_URL       = os.environ.get("SITE_URL", "https://tarmolov.ru")
 _SCRIPT_DIR    = Path(__file__).parent
-CONTENT_DIR    = Path(os.environ.get("CONTENT_DIR", _SCRIPT_DIR / "content/posts"))
-STATE_FILE     = Path(os.environ.get("STATE_FILE", _SCRIPT_DIR / ".tracker-state.json"))
+CONTENT_DIR    = Path(os.environ.get("CONTENT_DIR", _SCRIPT_DIR.parent / "content/posts"))
+STATE_FILE     = Path(os.environ.get("STATE_FILE", _SCRIPT_DIR.parent / ".tracker-state.json"))
 
 FIELD_PREFIX   = "635bb3a32bf1dd5fdb87553e--"
 FIELD_SITE_URL = f"{FIELD_PREFIX}siteUrl"
 FIELD_PROD     = f"{FIELD_PREFIX}production"
 FIELD_PUBDATE  = f"{FIELD_PREFIX}publishDateTime"
 
+# Links to BLOG tasks in Tracker
 BLOG_ISSUE_RE  = re.compile(r'https://tracker\.yandex\.ru/(BLOG-\d+)')
 
-# Tracker attachment URLs: /ajax/v2/attachments/<id> or full tracker.yandex.ru paths
+# Tracker inline attachments: ![alt](/ajax/v2/attachments/123?inline=true =400x)
 ATTACHMENT_RE  = re.compile(
-    r'!\[([^\]]*)\]\((/ajax/v2/attachments/\d+[^\)]*|https://tracker\.yandex\.ru/[^\)]*attachments/\d+[^\)]*)\)'
+    r'!\[([^\]]*)\]\((/ajax/v2/attachments/\d+[^\)]*|https://tracker\.yandex\.ru[^\)]*attachments/\d+[^\)]*)\)'
 )
 # External images
 EXT_IMAGE_RE   = re.compile(
@@ -57,7 +65,6 @@ def api_get(path, params=None):
         return json.loads(r.read())
 
 def api_post(path, data):
-    import urllib.error
     body = json.dumps(data).encode()
     req = urllib.request.Request(f"{TRACKER_API}{path}", data=body, method="POST", headers={
         "Authorization": f"OAuth {OAUTH_TOKEN}",
@@ -92,11 +99,25 @@ def download_bytes(url, auth=False):
         return r.read(), dict(r.headers)
 
 # ── Tracker helpers ─────────────────────────────────────────────────────────
-def search_issues(daily=False):
-    if daily:
-        query = 'Queue: BLOG Resolution: Fixed Blog."время публикации": today() "Sort by": Blog."время публикации" ASC'
+def search_issues(monthly=False):
+    """
+    Fetch BLOG issues from Tracker.
+
+    First run  (monthly=False): all tasks with Resolution: notEmpty()
+    Monthly run (monthly=True):  only tasks Updated: month()
+    Both sorted by Blog."время публикации" ASC.
+    """
+    if monthly:
+        query = (
+            'Queue: BLOG Resolution: notEmpty() Updated: month() '
+            '"Sort by": Blog."время публикации" ASC'
+        )
     else:
-        query = 'Queue: BLOG Resolution: Fixed "Sort by": Blog."время публикации" ASC'
+        query = (
+            'Queue: BLOG Resolution: notEmpty() '
+            '"Sort by": Blog."время публикации" ASC'
+        )
+
     issues, page = [], 1
     while True:
         batch = api_post(f"/issues/_search?perPage=50&page={page}", {"query": query})
@@ -217,10 +238,9 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
         alt = m.group(1)
         raw_url = m.group(2)
 
-        # Try to find attachment filename from the alt text or attachments list
         # Tracker inline syntax: ![filename.jpg](/ajax/v2/attachments/123?inline=true =400x)
-        # Extract just the path without size hint
-        url_part = raw_url.split(" ")[0]  # remove " =400x" etc
+        # Strip size hint (e.g., " =400x")
+        url_part = raw_url.split(" ")[0]
 
         # Build full URL if relative
         if url_part.startswith("/"):
@@ -228,12 +248,10 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
         else:
             full_url = url_part
 
-        # Try to find the real filename from attachments list
-        # Extract attachment ID from URL
+        # Try to find real filename from attachments list
         att_id_m = re.search(r'/attachments/(\d+)', url_part)
         att_id = att_id_m.group(1) if att_id_m else None
 
-        # Use attachment metadata for filename and download URL
         if att_id and att_id in attachments_by_id:
             att = attachments_by_id[att_id]
             fname = att["name"] or fname_from_url(url_part)
@@ -249,10 +267,9 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
             fname = _feature_name(fname, image_counter)
             image_counter[0] += 1
         dest = post_dir / fname
-        rel = fname
 
         if download_to(download_url, dest, auth=True):
-            return f"![{alt}]({rel})"
+            return f"![{alt}]({fname})"
         return m.group(0)
 
     text = ATTACHMENT_RE.sub(replace_attachment, text)
@@ -304,13 +321,6 @@ def issue_to_markdown(issue, site_url_map, post_dir):
         for a in attachments
     }
 
-    # If the first attachment is a video, download it unconditionally
-    if attachments:
-        first = attachments[0]
-        fname = first.get("name", "")
-        if is_video(fname):
-            download_to(first.get("content", ""), post_dir / fname, auth=True)
-
     body = process_description(description, key, site_url_map, post_dir, attachments_by_id)
     summary = make_summary(body)
 
@@ -348,15 +358,16 @@ def save_state(state):
 def main():
     state = load_state()
     first_run = not state.get("last_run")
-    print(f"Mode: {'full sync' if first_run else 'daily sync'}")
+    print(f"Mode: {'full sync' if first_run else 'monthly sync'}")
 
-    issues = search_issues() if first_run else search_issues(daily=True)
+    issues = search_issues(monthly=not first_run)
     print(f"Found {len(issues)} issues")
 
     if not issues:
         print("Nothing to do.")
         return
 
+    # Build site URL map across all fetched issues for cross-link replacement
     site_url_map = build_site_url_map(issues)
     CONTENT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -366,20 +377,26 @@ def main():
         post_dir = CONTENT_DIR / slug
         post_dir.mkdir(parents=True, exist_ok=True)
 
-        if (post_dir / "index.md").exists():
-            print(f"Skipping {key}: already synced")
+        index_md = post_dir / "index.md"
+
+        # On monthly sync, re-process even existing posts (content may have changed)
+        if index_md.exists() and first_run:
+            print(f"Skipping {key}: already synced (full sync)")
             continue
 
         print(f"Processing {key}: {issue['summary'][:60]}")
 
-        post_dir.mkdir(parents=True, exist_ok=True)
         md = issue_to_markdown(issue, site_url_map, post_dir)
-        (post_dir / "index.md").write_text(md, encoding="utf-8")
+        index_md.write_text(md, encoding="utf-8")
 
+        # Write siteUrl back to Tracker
         url = issue_site_url(issue)
         if issue.get(FIELD_SITE_URL) != url:
-            api_patch(f"/issues/{key}", {FIELD_SITE_URL: url})
-            print(f"  ✓ siteUrl → {url}")
+            try:
+                api_patch(f"/issues/{key}", {FIELD_SITE_URL: url})
+                print(f"  ✓ siteUrl → {url}")
+            except Exception as e:
+                print(f"  WARN: could not set siteUrl for {key}: {e}")
 
         time.sleep(0.1)
 
@@ -387,6 +404,8 @@ def main():
     save_state(state)
     print("Done.")
 
+
+# ── Utility commands ────────────────────────────────────────────────────────
 def patch_urls():
     """Patch siteUrl in Tracker for all existing posts without re-downloading."""
     index_files = sorted(CONTENT_DIR.glob("*/index.md"))
@@ -411,6 +430,7 @@ def patch_urls():
             print(f"  ✗ {key}: {e}")
         time.sleep(0.1)
     print("Done.")
+
 
 def replace_tg_links():
     """Build telegram→siteUrl map from Tracker and replace links in all posts."""
@@ -455,6 +475,7 @@ def replace_tg_links():
             print(f"  ✓ {idx.parent.name}")
             changed += 1
     print(f"Done. Updated {changed} files.")
+
 
 if __name__ == "__main__":
     import sys
