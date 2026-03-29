@@ -94,7 +94,7 @@ def download_bytes(url, auth=False):
 # ── Tracker helpers ─────────────────────────────────────────────────────────
 def search_issues(daily=False):
     if daily:
-        query = 'Queue: BLOG Resolution: Fixed Blog."время публикации": day() "Sort by": Blog."время публикации" ASC'
+        query = 'Queue: BLOG Resolution: Fixed Blog."время публикации": today() "Sort by": Blog."время публикации" ASC'
     else:
         query = 'Queue: BLOG Resolution: Fixed "Sort by": Blog."время публикации" ASC'
     issues, page = [], 1
