@@ -199,6 +199,19 @@ def build_site_url_map(issues):
         m[issue["key"]] = issue.get(FIELD_SITE_URL) or issue_site_url(issue)
     return m
 
+def resolve_site_url(key, site_url_map):
+    """Return siteUrl for a BLOG key, fetching from Tracker if not in map."""
+    if key in site_url_map:
+        return site_url_map[key]
+    try:
+        issue = api_get(f"/issues/{key}")
+        url = issue.get(FIELD_SITE_URL) or issue_site_url(issue)
+        site_url_map[key] = url  # cache for future calls
+        return url
+    except Exception as e:
+        print(f"  WARN: could not resolve siteUrl for {key}: {e}")
+        return None
+
 # ── Description processing ──────────────────────────────────────────────────
 def process_description(description, issue_key, site_url_map, post_dir, attachments_by_id):
     if not description:
@@ -209,7 +222,8 @@ def process_description(description, issue_key, site_url_map, post_dir, attachme
     # 1. Replace BLOG issue links with siteUrl
     def replace_blog_link(m):
         key = m.group(1)
-        return site_url_map.get(key, m.group(0))
+        url = resolve_site_url(key, site_url_map)
+        return url if url else m.group(0)
     text = BLOG_ISSUE_RE.sub(replace_blog_link, text)
 
     # 2. Replace Tracker attachment images (inline attachments)
