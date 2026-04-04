@@ -15,36 +15,6 @@ header {
   margin-top: 1rem;
 }
 
-/* Make links more noticeable */
-a,
-.link {
-  color: #0066cc;
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
-  text-decoration-thickness: 0.08em;
-}
-
-a:hover,
-a:focus,
-.link:hover,
-.link:focus {
-  color: #4da3ff;
-  text-decoration-thickness: 0.12em;
-}
-
-@media (prefers-color-scheme: dark) {
-  a,
-  .link {
-    color: #e3f2ff;
-  }
-
-  a:hover,
-  a:focus,
-  .link:hover,
-  .link:focus {
-    color: #e3f2ff;
-  }
-}
 
 /* Fix search modal on iOS: keyboard shrinks viewport, modal must stay at top */
 #search-wrapper {
