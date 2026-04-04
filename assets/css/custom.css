@@ -18,7 +18,7 @@ header {
 /* Make links more noticeable */
 a,
 .link {
-  color: #005bb5;
+  color: #0066cc;
   text-decoration: underline;
   text-underline-offset: 0.12em;
   text-decoration-thickness: 0.08em;
@@ -28,8 +28,22 @@ a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: #003d7a;
+  color: #4da3ff;
   text-decoration-thickness: 0.12em;
+}
+
+@media (prefers-color-scheme: dark) {
+  a,
+  .link {
+    color: #7fc0ff;
+  }
+
+  a:hover,
+  a:focus,
+  .link:hover,
+  .link:focus {
+    color: #b8dcff;
+  }
 }
 
 /* Fix search modal on iOS: keyboard shrinks viewport, modal must stay at top */
