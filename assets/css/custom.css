@@ -35,14 +35,14 @@ a:focus,
 @media (prefers-color-scheme: dark) {
   a,
   .link {
-    color: #7fc0ff;
+    color: #b7ddff;
   }
 
   a:hover,
   a:focus,
   .link:hover,
   .link:focus {
-    color: #b8dcff;
+    color: #e3f2ff;
   }
 }
 
