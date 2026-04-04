@@ -13,11 +13,11 @@ First of all, a little preface. A couple of weeks ago I got to know about Fronte
 
 This article is divided into five parts:
 
-  * **Design** tells you how I designed my mini application.
-  * **Tools** teaches you which tools make are handy and make your development cozy.
-  * **Development** is dedicated to established solutions and problems.
-  * **Testing** shows you how I tested my project and made it stable.
-  * **Continuous integration** is the last one and it tells you about automatization.
+- **Design** tells you how I designed my mini application.
+- **Tools** teaches you which tools make are handy and make your development cozy.
+- **Development** is dedicated to established solutions and problems.
+- **Testing** shows you how I tested my project and made it stable.
+- **Continuous integration** is the last one and it tells you about automatization.
 
 **Note.** It is a long article. If you do not want to read the whole post please go to project page on [github](https://github.com/tarmolov/bem-calendar#bem-calendar-) for short version :)
 
@@ -33,10 +33,10 @@ Let us start with Design part.
 
 I have only four major blocks:
 
-  * Toolbar with a couple of buttons.
-  * Search block with input and icon.
-  * Calendar navigation.
-  * And calendar itself.
+- Toolbar with a couple of buttons.
+- Search block with input and icon.
+- Calendar navigation.
+- And calendar itself.
 
 I marked blocks on the screenshot below:
 
@@ -68,18 +68,18 @@ As you can see that BEM is not displayed on the diagram. In my opinion base arch
 
 There are a few differences from Zakas approach:
 
-  * Every layer is aware of the base library: everything needs jQuery :)
-  * Component manager is responsible for starting and stopping components.
-  * Modules are named components because I already have modules from ```YMS``` (conflict names).
+- Every layer is aware of the base library: everything needs jQuery :)
+- Component manager is responsible for starting and stopping components.
+- Modules are named components because I already have modules from ```YMS``` (conflict names).
 
 For storing an application data I use a simple active model which can be accessed through the sandbox, too. However, components do not know where the model comes from. That is important.
 
 I have only four visual components:
 
-  * ```Calendar```
-  * ```Navigation```
-  * ```Search```
-  * ```Toolbar```
+- ```Calendar```
+- ```Navigation```
+- ```Search```
+- ```Toolbar```
 
 And one (```Sync```) is non-visual for synching my application with localStorage.
 
