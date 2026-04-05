@@ -31,3 +31,15 @@ header {
   overflow-y: auto;
   padding-bottom: env(keyboard-inset-height, 2rem);
 }
+
+/* Make links clearly look like links */
+a {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+  text-decoration-thickness: 0.08em;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration-thickness: 0.12em;
+}
