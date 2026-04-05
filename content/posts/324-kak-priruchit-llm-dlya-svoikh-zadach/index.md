@@ -14,8 +14,8 @@ tracker: "BLOG-324"
 Оригинал опубликован в [Telegram](https://t.me/tarmolov_work/259)
 {{< /alert >}}
 
-— Заменят ли нейросети людей?
-— Нет. Но они заменят тех, кто их не использует.
+- Заменят ли нейросети людей?
+- Нет. Но они заменят тех, кто их не использует.
 
 Наверняка вы уже слышали о нейросетях, искусственном интеллекте и машинном обучении. Если вдруг всё это прошло мимо вас — советую начать с [ключевых понятий в ИИ](https://t.me/workinginit/48), чтобы понимать, о чём дальше пойдёт речь.
 
@@ -46,9 +46,9 @@ LLM — это не магия, а просто T9 на стероидах: пр
 **Шаг 3. Изучайте библиотеки готовых промтов**
 
 LLM всегда может подсказать подходящие библиотеки промтов, но вот мои фавориты:
-— [Prompting Guide 101](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf) от Google
-— [Prompt Library](https://docs.anthropic.com/en/prompt-library/library) от Anthropic
-— [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) от сообщества
+- [Prompting Guide 101](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf) от Google
+- [Prompt Library](https://docs.anthropic.com/en/prompt-library/library) от Anthropic
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) от сообщества
 
 **Шаг 4. Ваш совет!**
 
