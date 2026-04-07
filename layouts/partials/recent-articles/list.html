@@ -1,8 +1,10 @@
 {{ $recentArticles := 5 }}
 {{ $recentArticles = .Site.Params.homepage.showRecentItems }}
+{{ $visiblePages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ $visiblePages = where $visiblePages "Params.unlisted" "!=" true }}
 
 <section class="space-y-10 w-full home-profile-recent">
-  {{ range first $recentArticles (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages }}
+  {{ range first $recentArticles (.Paginate $visiblePages).Pages }}
     {{ partial "article-link/simple.html" . }}
   {{ end }}
 </section>
