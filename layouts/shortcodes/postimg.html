@@ -1,0 +1,9 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $resolved := $src }}
+{{ if not (or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "/")) }}
+  {{ $resolved = printf "%s%s" .Page.RelPermalink $src }}
+{{ end }}
+<img loading="lazy" src="{{ $resolved }}" alt="{{ $alt }}"{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }} />
