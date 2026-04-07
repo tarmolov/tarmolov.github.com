@@ -1,6 +1,8 @@
-/* Keep homepage recent posts and /posts/ list at the same readable width */
+/* Keep homepage, /posts/, and single post pages at the same readable width */
 .home-profile-recent,
-.posts-list-container {
+.posts-list-container,
+#single_header,
+.article-content {
   max-width: 65ch;
   margin-left: auto;
   margin-right: auto;
