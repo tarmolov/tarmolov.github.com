@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ $pages := .RegularPagesRecursive }}
+  {{ $pages = where $pages "Params.unlisted" "!=" true }}
+  {{ $paginator := .Paginate $pages }}
+
+  <header class="mt-8 mb-6">
+    {{ with .Title }}<h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ . }}</h1>{{ end }}
+    {{ with .Content }}<div class="prose dark:prose-invert mt-4 max-w-none">{{ . }}</div>{{ end }}
+  </header>
+
+  <section class="space-y-10">
+    {{ range $paginator.Pages }}
+      {{ partial "article-link/simple.html" . }}
+    {{ end }}
+  </section>
+
+  {{ partial "pagination.html" . }}
+{{ end }}
