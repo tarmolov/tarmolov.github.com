@@ -26,7 +26,7 @@ OpenClaw работает как «постоянно живущий» ИИ-аг
 
 Если совсем грубо, схема работы такая:
 
-![image.png](398.webp =337x425)
+<img src="398.webp" width="337" height="425" alt="image.png" loading="lazy" />
 
 ### Установка
 
@@ -40,7 +40,7 @@ $ curl -fsSL https://openclaw.ai/install.sh | bash
 
 Вся установка и базовая настройка заняли считаные минуты. Почти сразу меня встретило приветственное сообщение OpenClaw:
 
-![image.png](399.webp =495x329)
+<img src="399.webp" width="495" height="329" alt="image.png" loading="lazy" />
 
 ### Что я ему поручал
 
@@ -52,17 +52,17 @@ $ curl -fsSL https://openclaw.ai/install.sh | bash
 
 Потом я наконец разобрал свои dotfiles. Они давно пылились, а руки все не доходили их причесать.
 
-![image.png](400.webp =607x490)
+<img src="400.webp" width="607" height="490" alt="image.png" loading="lazy" />
 
 Дальше уже вместе с Claude я немного допилил результат, чтобы внести мелкие правки. Результат получился хорошим.
 
 Еще один эксперимент: во время прогулки я поднял себе сайт на GitHub Pages — прямо из Telegram, просто давая указания агенту.
 
-![image.png](401.webp =636x600)
+<img src="401.webp" width="636" height="600" alt="image.png" loading="lazy" />
 
 Потом подключил OpenClaw к Яндекс Трекеру. Теперь он помогает с рекомендациями по моим постам.
 
-![image.png](402.webp =637x472)
+<img src="402.webp" width="637" height="472" alt="image.png" loading="lazy" />
 
 Тут важно помнить: чем больше прав у OpenClaw, тем больше пользы он может принести. Но бездумно раздавать доступы нельзя. Это стажер с реактором: пользы может быть много, но только если держать все под контролем.
 
@@ -72,15 +72,15 @@ $ curl -fsSL https://openclaw.ai/install.sh | bash
 
 #### Проблема №1. OpenClaw врет
 
-![image.png](403.webp =597x600)
+<img src="403.webp" width="597" height="600" alt="image.png" loading="lazy" />
 
 В этом нет ничего удивительного. Под капотом у OpenClaw работает LLM — в моем случае Claude Sonnet. А LLM может ошибаться, фантазировать и путать факты.
 
 Поэтому решение простое: все важные настройки хранить в репозитории, чтобы их можно было перепроверить в любой момент.
 
-![image.png](404.webp =655x226)
+<img src="404.webp" width="655" height="226" alt="image.png" loading="lazy" />
 
-![image.png](405.webp =659x219)
+<img src="405.webp" width="659" height="219" alt="image.png" loading="lazy" />
 
 Я попросил OpenClaw самому создать репозиторий в его GitHub-аккаунте, вынести секреты в отдельный `secrets.json`, чтобы они не утекли в репозиторий, и настроить пуш изменений каждые 24 часа. Иногда — по моему запросу.
 
@@ -92,7 +92,7 @@ $ curl -fsSL https://openclaw.ai/install.sh | bash
 
 У меня была подписка Claude Pro, не Max, и довольно быстро все упиралось в RateLimiter.
 
-![image.png](406.webp =398x277)
+<img src="406.webp" width="398" height="277" alt="image.png" loading="lazy" />
 
 Что помогло:
 
@@ -103,7 +103,7 @@ $ curl -fsSL https://openclaw.ai/install.sh | bash
 
 #### Проблема №3. Claude API иногда отваливается
 
-![image.png](407.webp =443x294)
+<img src="407.webp" width="443" height="294" alt="image.png" loading="lazy" />
 
 К счастью, это решается фолбеками. У меня цепочка такая:
 
@@ -121,7 +121,7 @@ $ curl -fsSL https://openclaw.ai/install.sh | bash
 
 #### Проблема №4. Оверинжиниринг
 
-![image.png](408.webp =578x367)
+<img src="408.webp" width="578" height="367" alt="image.png" loading="lazy" />
 
 LLM любят оверинжинирить. Раз OpenClaw работает на LLM, эта болезнь есть и у него.
 
@@ -129,7 +129,7 @@ LLM любят оверинжинирить. Раз OpenClaw работает н
 
 #### Проблема №5. GitHub зафлагал аккаунт моего агента
 
-![image.png](409.webp =570x296)
+<img src="409.webp" width="570" height="296" alt="image.png" loading="lazy" />
 
 Теперь, если открыть профиль моего агента или его pull request, видишь 404. GitHub так защищает пользователей от спама и подозрительной активности.
 
@@ -153,7 +153,7 @@ LLM любят оверинжинирить. Раз OpenClaw работает н
 
 Оплатить можно рублевой картой. Берите второй тариф: на первом почти гарантированно упретесь в память.
 
-![image.png](410.webp =650x148)
+<img src="410.webp" width="650" height="148" alt="image.png" loading="lazy" />
 
 #### 2. Завел аккаунты в Claude, ChatGPT и DeepSeek и оплатил подписки
 
