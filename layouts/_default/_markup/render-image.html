@@ -3,13 +3,11 @@
 {{ $width := "" }}
 {{ $height := "" }}
 
-{{ if findRE `\s\{.*\}$` $raw }}
-  {{ $src = replaceRE `\s\{.*\}$` "" $raw }}
-  {{ with index (findRE `width\s*=\s*["”]?([0-9]+)["”]?` $raw 1) 0 }}
-    {{ $width = replaceRE `.*?([0-9]+).*` "$1" . }}
-  {{ end }}
-  {{ with index (findRE `height\s*=\s*["”]?([0-9]+)["”]?` $raw 1) 0 }}
-    {{ $height = replaceRE `.*?([0-9]+).*` "$1" . }}
+{{ if findRE `\s*=\s*[0-9]+x[0-9]+$` $raw }}
+  {{ $src = replaceRE `\s*=\s*[0-9]+x[0-9]+$` "" $raw }}
+  {{ with index (findRE `[0-9]+x[0-9]+$` $raw 1) 0 }}
+    {{ $width = replaceRE `x.*$` "" . }}
+    {{ $height = replaceRE `^.*x` "" . }}
   {{ end }}
 {{ end }}
 
