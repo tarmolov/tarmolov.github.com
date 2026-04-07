@@ -1,5 +1,6 @@
-/* Center recent articles section on homepage */
-.home-profile-recent {
+/* Keep homepage recent posts and /posts/ list at the same readable width */
+.home-profile-recent,
+.posts-list-container {
   max-width: 65ch;
   margin-left: auto;
   margin-right: auto;
