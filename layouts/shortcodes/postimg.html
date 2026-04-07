@@ -6,4 +6,6 @@
 {{ if not (or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "/")) }}
   {{ $resolved = printf "%s%s" .Page.RelPermalink $src }}
 {{ end }}
-<img loading="lazy" src="{{ $resolved }}" alt="{{ $alt }}"{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }} />
+<figure style="text-align:center;">
+  <img loading="lazy" src="{{ $resolved }}" alt="{{ $alt }}"{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }} style="display:inline-block;" />
+</figure>
