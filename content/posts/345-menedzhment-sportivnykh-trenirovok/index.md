@@ -1,7 +1,7 @@
 ---
 title: "Менеджмент спортивных тренировок"
 date: 2025-06-16T12:16:20.013+00:00
-slug: 345-menedzhment-sportivnykh-trenirovok
+slug: longread-345-menedzhment-sportivnykh-trenirovok
 summary: "Как подойти к спортивным тренировкам как к обычному проекту: с целями, рисками, расписанием, контролем и измеримым результатом."
 tags:
   - спорт

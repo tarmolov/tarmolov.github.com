@@ -1,7 +1,7 @@
 ---
 title: "Темы для 1-1 от The PopForms Team"
 date: 2023-08-19T22:44:31.275+00:00
-slug: 343-temy-dlya-1-1-ot-the-popforms-team
+slug: longread-343-temy-dlya-1-1-ot-the-popforms-team
 summary: "Подборка тем для 1-1 встреч от The PopForms Team, которую можно использовать как шпаргалку для регулярных разговоров с сотрудниками."
 tags:
   - менеджмент

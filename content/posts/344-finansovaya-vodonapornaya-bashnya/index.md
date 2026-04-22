@@ -1,7 +1,7 @@
 ---
 title: "Финансовая водонапорная башня"
 date: 2024-06-06T12:46:25.732+00:00
-slug: 344-finansovaya-vodonapornaya-bashnya
+slug: longread-344-finansovaya-vodonapornaya-bashnya
 summary: "Прежде всего хочу дать небольшой дисклеймер."
 tags:
   - финансы
