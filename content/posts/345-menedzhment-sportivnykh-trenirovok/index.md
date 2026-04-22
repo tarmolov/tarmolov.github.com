@@ -67,7 +67,7 @@ tracker: "LONGREAD-16"
 
 Я придерживаюсь подхода, что у тренировок должно быть четкое расписание. Предварительное расписание выделил следующее. По будням через день.
 
-<img src="359-image.webp" alt="image.png" loading="lazy" decoding="async" width="1527" height="600">
+{{< postimg src="359-image.webp" width="1527" height="600" alt="image.png" >}}
 
 Давайте уточню немного про найм тренера.
 
@@ -100,7 +100,7 @@ tracker: "LONGREAD-16"
 
 В итоге я пошел к тренеру — [Алексею Орешкову](https://www.instagram.com/aleksey_oreshkov/). И забегая вперед скажу, что не ошибся :)
 
-<img src="346-image.webp" alt="image.png" loading="lazy" decoding="async" width="300">
+{{< postimg src="346-image.webp" width="300" alt="image.png" >}}
 
 У моего тренера есть три "ступени" в тренировках:
 
@@ -109,16 +109,16 @@ tracker: "LONGREAD-16"
 3. **Про** — те, кто готовится к соревнованиям.
 
 Я, разумеется, попадаю в разряд "начинающий".
-<img src="360-image.webp" alt="image.png" loading="lazy" decoding="async" width="500">
+{{< postimg src="360-image.webp" width="500" alt="image.png" >}}
 
 ## 4. Мониторинг и контроль
 
 Первое занятие — первое взвешивание на весах с анализом состава тела, чтобы получить отправную точку:
-<img src="363-image.webp" alt="image.png" loading="lazy" decoding="async" width="600">
+{{< postimg src="363-image.webp" width="600" alt="image.png" >}}
 
 И весы также подтверидили на основе данных, что футболка топорщилась у меня не просто так:
 
-<img src="362-image.webp" alt="image.png" loading="lazy" decoding="async" width="300">
+{{< postimg src="362-image.webp" width="300" alt="image.png" >}}
 
 С тренером решили, что будем стремиться оставить вес примерно тем же, но уменьшить процент жира, т.е. будем делать рекомпозицию тела.
 
@@ -146,17 +146,17 @@ tracker: "LONGREAD-16"
 
 * 🔴 — лучше исключить
 
-<img src="365-image.webp" alt="image.png" loading="lazy" decoding="async" width="1099" height="600">
+{{< postimg src="365-image.webp" width="1099" height="600" alt="image.png" >}}
 
 **Совет от Алексея по питанию:** нужно, чтобы средние значения за неделю соответствовали таргетам, т.е. если пару дней недоедать жиров/углей, то в выходной можно навернуть что-то покалорийнее. Это позволяет обходиться без срывов и иногда баловать себя вкусняшками.
 
 Поэтому я нарисовал себе график скользящей средней и стал смотреть на нее. Например, потребление белка выглядело так.
 
-<img src="355-image.webp" alt="image.png" loading="lazy" decoding="async" width="600">
+{{< postimg src="355-image.webp" width="600" alt="image.png" >}}
 
 Воду я тоже трекал, но очень редко достигал заданного таргета. Нашел для себя лайфхак — купил литровую спортивную бутылку для воды и потребление воды сразу увеличилось.
 
-<img src="364-image.webp" alt="image.png" loading="lazy" decoding="async" width="600">
+{{< postimg src="364-image.webp" width="600" alt="image.png" >}}
 
 Т.к. мы с тренером переписываемся в телеграмм, то решил не искать какое-то отдельное приложение для записи тренировок. Просто создал набор тегов:
 
@@ -170,17 +170,17 @@ tracker: "LONGREAD-16"
 `#вода` — количество выпитой воды
 
 Всегда можно отгрепать нужные сообщения одним кликом:
-<img src="366-image.webp" alt="image.png" loading="lazy" decoding="async" width="1539" height="600">
+{{< postimg src="366-image.webp" width="1539" height="600" alt="image.png" >}}
 
 А, ну и куда же без кардио? Почти после каждой тренировки я еще делал кардио. В качестве отчета просто отсылал фото с нужными тегами:
 
-<img src="telegram-cloud-photo-size-2-5317013502512198072-y.webp" alt="telegram-cloud-photo-size-2-5317013502512198072-y.jpg" loading="lazy" decoding="async" width="500">
+{{< postimg src="telegram-cloud-photo-size-2-5317013502512198072-y.webp" width="500" alt="telegram-cloud-photo-size-2-5317013502512198072-y.jpg" >}}
 
 Важно было не допускать ЧСС выше 135 и стараться делать кардио больше 30 мин. Ну хотя бы 15 мин :)
 
 Иногда я увлекался и пульс подскакивал выше 135, но в основном я более-менее укладывался.
 
-<img src="357-image.webp" alt="image.png" loading="lazy" decoding="async" width="1666" height="547">
+{{< postimg src="357-image.webp" width="1666" height="547" alt="image.png" >}}
 
 ## 5. Завершение проекта
 
@@ -190,17 +190,17 @@ tracker: "LONGREAD-16"
 
 Если проанализировать график тренировок ниже, то получим периодичность занятий в 2.5 тренировки в неделю. Очень близко к заявленной цели, что, на мой взгляд, вполне неплохо.
 
-<img src="353-image.webp" alt="image.png" loading="lazy" decoding="async" width="1451" height="600">
+{{< postimg src="353-image.webp" width="1451" height="600" alt="image.png" >}}
 
 Но несмотря на послабление в питании и не совсем заявленное количество тренировок, удалось добиться рекомпозиции тела. Вес остался почти тем, что и до начала занятий, а вот состав претерпел изменения.
 
-<img src="370-image.webp" alt="image.png" loading="lazy" decoding="async" width="500">
+{{< postimg src="370-image.webp" width="500" alt="image.png" >}}
 
 Нагляднее смотреть на результаты в динамике.
-<img src="371-image.webp" alt="image.png" loading="lazy" decoding="async" width="400">
+{{< postimg src="371-image.webp" width="400" alt="image.png" >}}
 
 В итоге я перешагнул на следующую ступеньку у тренера. С этого момента тренировки стали тяжелее, объемы больше, а веса тщательно записываются и контролируются.
 
-<img src="369-image.webp" alt="image.png" loading="lazy" decoding="async" width="600">
+{{< postimg src="369-image.webp" width="600" alt="image.png" >}}
 
 Если интересно продолжение, то поддержите статью лайком. Через полгодика напишу еще :)

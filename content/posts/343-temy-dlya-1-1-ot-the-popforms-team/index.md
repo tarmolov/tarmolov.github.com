@@ -14,7 +14,7 @@ tracker: "LONGREAD-14"
 
 # Week # 1
 
-<img src="image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="image.webp" alt="image.png" >}} 
 
 **What is one thing that I could do to make you more productive?**
 
@@ -26,7 +26,7 @@ This can be a fun question because very seldom did people start out with the vis
 
 # Week # 2
 
-<img src="185-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="185-image.webp" alt="image.png" >}} 
 
 **Tell me about one coworker that you feel does a particularly good job.**
 
@@ -48,7 +48,7 @@ Easy breezy.
 
 # Week # 3
 
-<img src="186-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="186-image.webp" alt="image.png" >}} 
 
 **What is a mistake you made recently that you learned a lot from?**
 
@@ -64,7 +64,7 @@ Use this question to identify potential areas for growth and ways you can help p
 
 # Week # 4
 
-<img src="187-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="187-image.webp" alt="image.png" >}} 
 
 **What is the biggest challenge we will face this year?**
 
@@ -84,7 +84,7 @@ If they talk about a position, ask them why. Is it about achievement?  Maybe so
 
 # Week # 5
 
-<img src="188-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="188-image.webp" alt="image.png" >}} 
 
 **What part of your job do you wish you didn't have to do?**
 
@@ -102,7 +102,7 @@ If you think they are exceptional at something they don't mention, ask them why 
 
 # Week # 6
 
-<img src="189-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="189-image.webp" alt="image.png" >}} 
 
 **How could your working hours be adjusted to better fit your schedule?**
 
@@ -116,7 +116,7 @@ For example, it can help you recognize the contribution of other team members (g
 
 # Week # 7
 
-<img src="190-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="190-image.webp" alt="image.png" >}} 
 
 **What part of your job do you enjoy the most? And which part do you enjoy least?**
 
@@ -134,7 +134,7 @@ Take a moment now and think about anything else you want to talk about. Make a n
 
 # Week #8
 
-<img src="191-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="191-image.webp" alt="image.png" >}} 
 
 **What are 1 or 2 things in our team that could be done more efficiently?**
 
@@ -160,7 +160,7 @@ Great ideas come from everywhere, so if someone on your team has a great idea --
 
 # Week # 9
 
-<img src="192-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="192-image.webp" alt="image.png" >}} 
 
 **When have you had the most fun at work? (And it doesn't have to be this company! It can be past roles too.)**
 
@@ -180,7 +180,7 @@ Work is where we spend so much time. Make sure you're thinking about how happy y
 
 # Week # 10
 
-<img src="193-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="193-image.webp" alt="image.png" >}} 
 
 **From a resources standpoint, is there anything that would help you do your job better?**
 
@@ -202,7 +202,7 @@ Roger's hit the nail on the head. Go get 'em, hot shot!
 
 # Week # 11
 
-<img src="194-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="194-image.webp" alt="image.png" >}} 
 
 **If the need should arise, do you feel comfortable filling any roles other than your own in the office?**
 
@@ -218,7 +218,7 @@ If the answer is no, then ask about why and what they see could be future opport
 
 # Week # 12
 
-<img src="195-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="195-image.webp" alt="image.png" >}} 
 
 **List the top three things that you feel waste time during your day.**
 
@@ -236,7 +236,7 @@ Just don't make it specific or make them uncomfortable, and most importantly kee
 
 # Week # 13
 
-<img src="196-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="196-image.webp" alt="image.png" >}} 
 
 **How often do you think staff meetings are needed to keep everyone on the same page?**
 
@@ -252,7 +252,7 @@ The last thing you want is to lose someone over money, so use this tool as an ex
 
 # Week # 14
 
-<img src="197-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="197-image.webp" alt="image.png" >}} 
 
 **What makes for a great day at work?**
 
@@ -268,7 +268,7 @@ This is a great question because it allows people to dream. This can be a hard o
 
 # Week # 15
 
-<img src="198-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="198-image.webp" alt="image.png" >}} 
 
 **Do you feel like you receive feedback often enough?**
 
@@ -282,7 +282,7 @@ We often look up to people that have careers or trajectories that we want for ou
 
 # Week # 16
 
-<img src="199-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="199-image.webp" alt="image.png" >}} 
 
 **What is one thing we could do to make the office more comfortable/enjoyable/fun (or just better) without spending much money?**
 
@@ -298,7 +298,7 @@ Be a good listener. Try to understand where the person is coming from and consid
 
 # Week # 17
 
-<img src="200-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="200-image.webp" alt="image.png" >}} 
 
 **On a scale of 1-10 what level of loyalty do you feel to the company as a whole?**
 
@@ -316,7 +316,7 @@ These questions invite answers that might make you uncomfortable - but that's no
 
 # Week # 18
 
-<img src="201-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="201-image.webp" alt="image.png" >}} 
 
 **What goals do you feel like you have accomplished professionally since you began work here?**
 
@@ -328,7 +328,7 @@ Listen up here. Oftentimes, these suggestions are easy things, and the more info
 
 # Week # 19
 
-<img src="202-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="202-image.webp" alt="image.png" >}} 
 
 **Do you enjoy office functions (parties, dinners) or would you rather be rewarded in some other way?**
 
@@ -344,7 +344,7 @@ If the person has great ideas and doesn't speak up, use this as a chance to come
 
 # Week # 20
 
-<img src="203-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="203-image.webp" alt="image.png" >}} 
 
 **Sometimes an organization gets so focused on the tactical and day-to-day that they forget to take time to focus on being creative and fostering innovative ideas. What can we do to be more creative and innovative?**
 
@@ -358,7 +358,7 @@ It can be amazing to learn about how much help employees give to one another. So
 
 # Week # 21
 
-<img src="204-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="204-image.webp" alt="image.png" >}} 
 
 **What are you doing really well that is moving you towards your career goals?**
 
@@ -376,7 +376,7 @@ After the meeting will be the hard part though, because then you have to figure 
 
 # Week # 22
 
-<img src="205-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="205-image.webp" alt="image.png" >}} 
 
 **Are you having fun? Tell me about the most fun you've had working here.**
 
@@ -392,7 +392,7 @@ Be prepared to talk about where the company is headed and how this information i
 
 # Week # 23
 
-<img src="206-image.webp" alt="image.png" loading="lazy" decoding="async">
+{{< postimg src="206-image.webp" alt="image.png" >}}
 
 **Are you happy that you left your previous job for this one?**
 
@@ -408,7 +408,7 @@ And if they feel like they will be leaving soon, think about if it is time to st
 
 # Week # 24
 
-<img src="207-image.webp" alt="image.png" loading="lazy" decoding="async">
+{{< postimg src="207-image.webp" alt="image.png" >}}
 
 **List 3 things you would like to see when you come to work every day.**
 
@@ -422,7 +422,7 @@ Good follow-up questions: do you feel free to leave when your work is done? Are 
 
 # Week # 25
 
-<img src="208-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="208-image.webp" alt="image.png" >}} 
 
 **Pick a question to ask your manager about their background or career. \[for the employee to come up with!\]**
 
@@ -436,7 +436,7 @@ It can also help you see what sort of projects or accomplishments stand out to t
 
 # Week # 26
 
-<img src="209-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="209-image.webp" alt="image.png" >}} 
 
 **Tell me about the last time you felt proud of yourself to solving a problem on the job.**
 
@@ -450,7 +450,7 @@ Relationships can fall apart on missed expectations. Sometimes it helps to check
 
 # Week # 27
 
-<img src="210-image.webp" alt="image.png" loading="lazy" decoding="async">
+{{< postimg src="210-image.webp" alt="image.png" >}}
 
 **In your opinion, is the staffing level in the office sufficient to keep up with the workload?**
 
@@ -468,7 +468,7 @@ Talking about these things can also help surface some creative solutions for mor
 
 # Week # 28
 
-<img src="211-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="211-image.webp" alt="image.png" >}} 
 
 **If you were to give yourself a rating (1-10) today, what would it be?**
 
@@ -482,7 +482,7 @@ You don't need to confirm or deny the rating, per se, to make this meeting effec
 
 # Week # 29
 
-<img src="212-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="212-image.webp" alt="image.png" >}} 
 
 **List 2 things that you see being done inefficiently around the office. Is it worth making them more efficient? Why or why not?**
 
@@ -500,7 +500,7 @@ Ask them about why they would ask those questions, and what they think a good an
 
 # Week # 30
 
-<img src="213-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="213-image.webp" alt="image.png" >}} 
 
 **Do you think the salary possibilities within this company are enough to satisfy you long term?**
 
@@ -518,7 +518,7 @@ Make sure they share something. Don't tell them how to fix it, though. Instead, 
 
 # Week # 31
 
-<img src="214-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="214-image.webp" alt="image.png" >}} 
 
 **What is something we could do as a team to improve the company?**
 
@@ -534,7 +534,7 @@ It is these little things that can make a user experience great and it can be fu
 
 # Week # 32
 
-<img src="215-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="215-image.webp" alt="image.png" >}} 
 
 **Do you feel the work is evenly distributed across the team? Is there anyone carrying too much? What are some ways we could even things out?**
 
@@ -554,7 +554,7 @@ If you can help each teammate understand how they can be a better team member, a
 
 # Week # 33
 
-<img src="216-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="216-image.webp" alt="image.png" >}} 
 
 **What are your big dreams in life? Is this job getting you closer to reaching them?**
 
@@ -576,7 +576,7 @@ If it makes the employee feel uncomfortable to call out a specific former employ
 
 # Week # 34
 
-<img src="217-image.webp" alt="image.png" loading="lazy" decoding="async"> 
+{{< postimg src="217-image.webp" alt="image.png" >}} 
 
 **What is one thing that could be done to make you feel more 'at home' in the office?**
 
