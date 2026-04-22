@@ -1,0 +1,5 @@
+<div class="alert-shortcode">
+  {{ with .Inner }}
+    {{ . | markdownify }}
+  {{ end }}
+</div>
