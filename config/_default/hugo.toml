@@ -8,5 +8,3 @@ title = "Тармолов про работу"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-[markup.goldmark.renderer]
-  unsafe = true

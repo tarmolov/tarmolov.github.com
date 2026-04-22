@@ -19,7 +19,7 @@ tracker: "LONGREAD-11"
 
 Для пакетов с одним именем существует одна особенность: при установке пакета более новой версии, пакет со старой версией будет полностью удален. Это означает, что нельзя установить две версии одного пакета.
 
-<img src="image.webp" alt="image.png" loading="lazy" decoding="async" width="700">
+{{< postimg src="image.webp" width="700" alt="image.png" >}}
 
 ## Создание debian-пакетов
 Согласно [официальному гайду](https://www.debian.org/doc/manuals/debmake-doc/ch03.en.html#email-setup) необходимо указать дополнительные переменные окружения в `.bash_profile`:
@@ -76,9 +76,9 @@ $ chmod +x debian/rules
 
 Т.е. для каждой новой версии статики создается абсолютно новый пакет, и он записывается в зависимости для виртуального пакета. Например, при сборке версии `1.0.0` мы получим два пакета со статикой: `yandex-maps-ui-kukusik-static=1.0.0`,  у которого будет прописана зависимость от пакета `yandex-maps-ui-kukusik-static-1-0-0=1.0.0`. Именно последний пакет и будет фактически устанавливаться на машинку.
 
-<img src="175-image.webp" alt="image.png" loading="lazy" decoding="async" width="700">
+{{< postimg src="175-image.webp" width="700" alt="image.png" >}}
 
-<img src="176-image.webp" alt="image.png" loading="lazy" decoding="async" width="700">
+{{< postimg src="176-image.webp" width="700" alt="image.png" >}}
 
 Итоговый `control` файл будет выглядеть следующим образом:
 
