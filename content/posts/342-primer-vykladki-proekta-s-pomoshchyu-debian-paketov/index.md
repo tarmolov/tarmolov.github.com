@@ -1,7 +1,7 @@
 ---
 title: "Пример выкладки проекта с помощью debian-пакетов"
 date: 2023-08-01T20:52:37.142+00:00
-slug: 342-primer-vykladki-proekta-s-pomoshchyu-debian-paketov
+slug: longread-342-primer-vykladki-proekta-s-pomoshchyu-debian-paketov
 summary: "Когда-то в Яндексе использовали интересный подход для деплоя сервисов — с помощью debian-пакетов. В этой статье я расскажу основную суть и покажу пример."
 tags:
   - разработка

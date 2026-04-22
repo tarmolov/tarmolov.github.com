@@ -1,7 +1,7 @@
 ---
 title: "Как я работаю в Things"
 date: 2023-05-26T09:23:09.437+00:00
-slug: 341-kak-ya-rabotayu-v-things
+slug: longread-341-kak-ya-rabotayu-v-things
 summary: "Я использую Things более 7 лет и за это время выработал свою систему управления задачами, которой и хочу сегодня поделиться."
 tags:
   - личная эффективность
