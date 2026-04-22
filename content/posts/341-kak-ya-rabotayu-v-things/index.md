@@ -8,7 +8,7 @@ tags:
 tracker: "LONGREAD-5"
 ---
 
-<img src="image.webp" alt="image.png" loading="lazy" decoding="async" width="400">
+{{< postimg src="image.webp" width="400" alt="image.png" >}}
 
 Я использую [Things](https://culturedcode.com/things/) более 7 лет и за это время выработал свою систему управления задачами, которой и хочу сегодня поделиться.
 
@@ -18,7 +18,7 @@ tracker: "LONGREAD-5"
 
 Для начала напомню терминологию сущностей в Things:
 
-<img src="163-image.webp" alt="image.png" loading="lazy" decoding="async" width="400">
+{{< postimg src="163-image.webp" width="400" alt="image.png" >}}
 
 Задачи можно объединить в группы с заголовком, проекты или области деятельности.
 
@@ -60,7 +60,7 @@ tracker: "LONGREAD-5"
 
 Важно понимать, что в активной фазе (**Anytime**) находится только часть проектов. Другие проекты (**Someday**) находятся в исследовательской фазе, в ожидании зависимостей (**тег Wait**) или же вообще в анабиозе.
 
-<img src="110-image.webp" alt="image.png" loading="lazy" decoding="async" width="400">
+{{< postimg src="110-image.webp" width="400" alt="image.png" >}}
 
 Я стараюсь формулировать мои проекты и задачи по [SMART](https://ru.wikipedia.org/wiki/S.M.A.R.T.), но не всегда этому следую.
 
@@ -80,7 +80,7 @@ tracker: "LONGREAD-5"
 
 Но как показала практика, удобнее писать этот логин в названии задачи. Отдельный тег `@username` превратился в название задачи вида `@username настроит инфраструктуру проксирования запросов`. Далее в обычном поиске я ввожу `@username`, и Things выдает мне все связанные задачи, включая закрытые.
 
-<img src="111-image.webp" alt="image.png" loading="lazy" decoding="async" width="400">
+{{< postimg src="111-image.webp" width="400" alt="image.png" >}}
 
 # Контексты
 
@@ -90,7 +90,7 @@ tracker: "LONGREAD-5"
 
 У меня осталось некоторое количество тегов для разделения рабочих и личных проектов, по типу действия (почитать, посмотреть, поговорить), по приоритету и уровню энергии.
 
-<img src="112-image.webp" alt="image.png" loading="lazy" decoding="async" height="400">
+{{< postimg src="112-image.webp" height="400" alt="image.png" >}}
 
 Пользуюсь тегами редко. Скорее всего, буду продолжать отказываться от тегов в пользу поиска.
 
