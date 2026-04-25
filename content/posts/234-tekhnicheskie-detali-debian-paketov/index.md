@@ -21,4 +21,4 @@ tracker: "BLOG-234"
 
 Сейчас выкладка сервисов debian-пакетами вряд ли будет использоваться. Однако не исключено, что сам подход можно будет адаптировать еще для каких-то процессов.
 
-📖 [Прочитайте статью о выкладке сервисов debian-пакетами](https://telegra.ph/Primer-vykladki-proekta-s-pomoshchyu-debian-paketov-08-01)
+📖 [Прочитайте статью о выкладке сервисов debian-пакетами](https://tarmolov.ru/posts/longread-342-primer-vykladki-proekta-s-pomoshchyu-debian-paketov/)
