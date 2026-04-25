@@ -29,4 +29,4 @@ tracker: "BLOG-157"
 
 При переводе тикета в статус `Тестирование` пост публикуется в  тестовый канал, а при переводе в статус `Публикуется` — в основной канал.
 
-Более подробно описал в [лонгриде в Телеграфе](https://tarmolov.ru/posts/157-avtomatizatsiya-vedeniya-bloga/).
+Более подробно описал в [лонгриде](https://tarmolov.ru/posts/157-avtomatizatsiya-vedeniya-bloga/).
